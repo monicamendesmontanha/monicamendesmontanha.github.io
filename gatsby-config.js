@@ -5,5 +5,4 @@
  */
 
 module.exports = {
-  pathPrefix: "monicamendesmontanha.github.io",
 }
