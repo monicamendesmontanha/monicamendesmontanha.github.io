@@ -2,7 +2,7 @@ import React from "react"
 import Menu from "./components/Menu"
 
 export default () => (
-  <div style={{ color: `teal` }}>
+  <div>
     <Menu />
     <h3>About me</h3>
     <p>I'm a junior engineer.</p>
