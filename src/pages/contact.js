@@ -1,5 +1,11 @@
 import React from "react"
 import Menu from "./components/Menu"
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faMapMarkerAlt, faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+library.add(faMapMarkerAlt, faEnvelope);
+
 
 export default () => (
   <>
@@ -13,8 +19,13 @@ export default () => (
       <button type="submit">Send</button>
     </form>
     <div>
-      <div>Sydney, NSW</div>
-      <div>monicamendesmontanha@gmail.com</div>
+      <div>
+        <FontAwesomeIcon icon={faMapMarkerAlt} />
+        Sydney, NSW
+      </div>
+      <div>
+      <FontAwesomeIcon icon={faEnvelope} />
+      monicamendesmontanha@gmail.com</div>
     </div>
   </>
 )
