@@ -25,13 +25,13 @@
 .projectName {
   font-size: 33px;
   color: #ffffff;
-  margin-bottom: 25px;
+  background-color: #eb15b5;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  background-image: linear-gradient(130deg, #8a1ad4 0%, #eb15b5 85%, #ffffff 100%);
   box-sizing: border-box;
   padding-top: 10px;
   padding-left: 20px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  margin-bottom: 25px; }
 
 .display {
   display: flex;
@@ -60,8 +60,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  background-image: linear-gradient(130deg, #8a1ad4 0%, #eb15b5 85%, #ffffff 100%);
   box-sizing: border-box;
   padding-top: 10px;
   padding-left: 20px;
@@ -77,7 +75,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   padding: 4px;
   border-radius: 4px;
-  border: 2px solid #ffffff; }
+  border: 2px solid #eb15b5; }
 
 @media screen and (max-width: 700px) {
   .container {
