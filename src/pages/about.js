@@ -4,7 +4,7 @@ import Menu from "./components/Menu"
 export default () => (
   <div>
     <Menu />
-    <h3>About me</h3>
+    <h3>ABOUT ME</h3>
     <p>I'm a junior engineer.</p>
 
     <p>
