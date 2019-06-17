@@ -1,6 +1,6 @@
 import React from "react"
 import Menu from "./components/Menu"
-import "./index.css"
+import "./scss/projects.scss"
 import MyNewsIphone from "./img/MyNewsIphone.png"
 import MyNewsIpad from "./img/MyNewsIpad.png"
 import TripWalletIphone from "./img/TripWalletIphone.png"

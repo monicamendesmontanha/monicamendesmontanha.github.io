@@ -1,9 +1,11 @@
+@import "./config";
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-  display: grid;
   width: 95%;
+  display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
   grid-gap: 2.5rem;
@@ -17,7 +19,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   color: $black;
   border-radius: 4px;
-  border: 4px solid $purple;
+  // border: 4px solid $purple;
   // list-style: none;
   // font-size: 40px;
   text-align: left;
@@ -33,7 +35,9 @@
 .projectName {
   font-size: 33px;
   color: $white;
-  background-color: $pink;
+  background-color: $black;
+  border-bottom: 2px solid $purple;
+  border-radius: 4px 4px 0 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   // background-image: linear-gradient(130deg, $purple 0%, $pink 85%, $white 100%);
   box-sizing: border-box;

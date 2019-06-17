@@ -1,5 +1,4 @@
 @import "./config";
-@import "./projects";
 
 body {
   margin: 0;
@@ -28,8 +27,14 @@ h2 {
 }
 
 h3 {
-  color: $pink;
-  border-bottom: 4px solid $purple;
+  color: $purple;
+  border-bottom: 4px dashed $pink;
   font-family: 'Audiowide', cursive;
   font-size: 38px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 0;
+  width: 95%;
 }

@@ -1,0 +1,106 @@
+@import "./config";
+
+.menu {
+  box-sizing: border-box;
+  // border: 2px solid orange;
+  background-color:$black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 4px solid $purple;
+  width: 100%;
+}
+
+.social {
+  box-sizing: border-box;
+  // border: 2px solid red;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  padding-left: 40px;
+  width: 25%;
+}
+
+.socialIcon {
+  padding: 2px;
+  color: $purple;
+
+  a :hover {
+    color: $white;
+  }
+}
+
+
+.navBar {
+  box-sizing: border-box;
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  padding: 18px;
+
+  a :hover {
+    color: $pink;
+  }
+}
+
+.resume {
+  box-sizing: border-box;
+  // border: 2px solid yellow;
+  width: 25%;
+  font-size: 20px;
+  font-family: 'Audiowide', cursive;
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 25px;
+
+}
+
+.resumeIcon {
+  box-sizing: border-box;
+  border: 2px solid $purple;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: $purple;
+
+}
+
+:any-link { color: $white; text-decoration: none}
+:any-link:active { color: $pink }
+
+
+//mobile
+@include mediaSm {
+  .social {
+    font-size: 12px;
+    width: 15%;
+    padding-left: 15px;
+  }
+
+  .navBar {
+    font-size: 28px;
+    width: 70%;
+  }
+
+  .resume {
+    font-size: 12px;
+    width: 15%;
+    padding-right: 10px;
+    padding-top: 25px;
+  }
+
+}
+
+@include mediaMd {
+
+}
+
+@include mediaLg {
+
+}
+
+@include mediaXl {
+}

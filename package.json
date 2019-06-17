@@ -13,9 +13,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "sass": "node-sass -w src/pages/scss/ -o src/pages/ --recursive"
-
-
-
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
@@ -31,7 +28,8 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "sass": "^1.21.0"
   },
   "repository": {
     "type": "git",
