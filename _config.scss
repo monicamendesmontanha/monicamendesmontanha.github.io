@@ -1,0 +1,41 @@
+
+// my name
+@import url('https://fonts.googleapis.com/css?family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bilbo&display=swap');
+
+// h2 software engineer
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+
+$black: #000000;
+$white: #ffffff;
+$pink: #eb15b5;
+$purple: #8a1ad4;
+
+//Media Query Mixins
+@mixin mediaXSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaSm {
+  @media screen and (max-width: 700px) {
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (min-width: 701px)  and (max-width: 900px) {
+    @content;
+  }
+}
+@mixin mediaLg {
+  @media screen and (min-width: 901px) and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin mediaXl {
+  @media screen and (min-width: 1201px) {
+    @content;
+  }
+}
