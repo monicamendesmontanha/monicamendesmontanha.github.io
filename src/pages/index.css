@@ -1,6 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  width: 95%;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-gap: 2.5rem; }
+
+.item {
+  font-family: 'Audiowide', cursive;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  border: 4px solid #8a1ad4;
+  list-style: none;
+  font-size: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column; }
+
+.summary {
+  border: 2px solid red;
+  font-size: 14px; }
+
+.monitor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid yellow;
+  margin: auto 0; }
+
+.techUsed {
+  font-size: 18px;
+  margin-bottom: 0; }
+
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +61,4 @@ h2 {
 h3 {
   color: #eb15b5;
   border-bottom: 4px solid #8a1ad4;
-  font-family: 'Audiowide', cursive; }
-
-h4 {
   font-family: 'Audiowide', cursive; }
