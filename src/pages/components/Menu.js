@@ -18,7 +18,7 @@ export default () => (
     </div>
     <div>
     <a
-        href="https://"
+        href="https://drive.google.com/file/d/1R3AImbkmKceHOhVAa80BEVOjnPgPCnhN/view?usp=sharing"
         rel="noopener noreferrer"
         target="_blank"
       >
