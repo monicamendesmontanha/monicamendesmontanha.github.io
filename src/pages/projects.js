@@ -26,12 +26,6 @@ export default () => (
             </li>
             <li>Click and go to the original article page.</li>
           </div>
-          {/* <div className="techUsed">
-            <div className="tag">React</div>
-            <div className="tag">Node.js</div>
-            <div className="tag">Express</div>
-            <div className="tag">SASS</div>
-          </div> */}
         </div>
         <div className="display">
           <img
@@ -68,11 +62,6 @@ export default () => (
               Store and visualise all your expenses organized by category.
             </li>
           </div>
-          {/* <div className="techUsed">
-            <div className="tag">Ruby on Rails</div>
-            <div className="tag">Postgress</div>
-            <div className="tag">CSS</div>
-          </div> */}
         </div>
         <div className="display">
           <img
@@ -108,11 +97,6 @@ export default () => (
               Store and visualise all your expenses organized by category.
             </li>
           </div>
-          {/* <div className="techUsed">
-            <div className="tag">Javascript</div>
-            <div className="tag">HTML</div>
-            <div className="tag">CSS</div>
-          </div> */}
         </div>
         <div className="display">
           <img
