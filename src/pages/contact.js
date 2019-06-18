@@ -35,7 +35,7 @@ export default () => (
       </div>
       <div>•</div>
       <div className="emailFooter">
-        <a target="_blank" href="mailto:monicamendesmontanha@gmail.com">
+        <a target="_blank" rel="noopener noreferrer" href="mailto:monicamendesmontanha@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} className="emailIcon" />
           <span type="submit">monicamendesmontanha@gmail.com</span>
         </a>

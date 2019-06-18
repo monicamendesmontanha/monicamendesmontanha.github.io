@@ -16,7 +16,7 @@ export default () => (
       <div className="item">
         <div>
           <div className="projectName">MY NEWS</div>
-          <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
+          <a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">
           <div className="summary">
             <li>
               Listen and read the news around the world in an accessible way
@@ -31,7 +31,7 @@ export default () => (
           </a>
         </div>
         <div className="display">
-        <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
+        <a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">
           <img
             className="iphone"
             src={MyNewsIphone}
@@ -40,7 +40,7 @@ export default () => (
             width="140"
           />
           </a>
-          <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
+          <a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">
           <img
             className="ipad"
             src={MyNewsIpad}
@@ -61,7 +61,7 @@ export default () => (
       <div className="item">
         <div>
           <div className="projectName">TRIP WALLET</div>
-          <a target="_blank" href="https://trip-wallet.herokuapp.com/">
+          <a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
             <li>Automatically conversion the rates.</li>
@@ -73,7 +73,7 @@ export default () => (
           </a>
         </div>
         <div className="display">
-        <a target="_blank" href="https://trip-wallet.herokuapp.com/">
+        <a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">
           <img
             className="iphone"
             src={TripWalletIphone}
@@ -82,7 +82,7 @@ export default () => (
             width="140"
           />
           </a>
-          <a target="_blank" href="https://trip-wallet.herokuapp.com/">
+          <a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">
           <img
             className="ipad"
             src={TripWalletIpad}
@@ -102,7 +102,7 @@ export default () => (
       <div className="item">
         <div>
           <div className="projectName">TIC TAC TOE</div>
-          <a target="_blank" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
+          <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
             <li>Automatically conversion the rates.</li>
@@ -114,7 +114,7 @@ export default () => (
         </a>
         </div>
         <div className="display">
-        <a target="_blank" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
+        <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <img
             src={TicTacToeMonitor}
             alt="Tic Tac Toe Monitor"
