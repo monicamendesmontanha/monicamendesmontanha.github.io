@@ -1,8 +1,8 @@
 @import "./config";
 
 .menu {
-  box-sizing: border-box;
   // border: 2px solid orange;
+  box-sizing: border-box;
   background-color:$black;
   display: flex;
   flex-direction: row;
@@ -15,11 +15,11 @@
 }
 
 .social {
-  box-sizing: border-box;
   // border: 2px solid red;
-  font-size: 16px;
+  box-sizing: border-box;
+  font-size: 18px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   align-self: center;
   padding-left: 40px;
@@ -27,7 +27,7 @@
 }
 
 .socialIcon {
-  padding: 2px;
+  padding: 6px;
   color: $purple;
 
   a :hover {
@@ -79,8 +79,13 @@
 @include mediaSm {
   .social {
     font-size: 12px;
-    width: 15%;
+    width: 10%;
     padding-left: 15px;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .socialIcon {
+    padding: 2px;
   }
 
   .navBar {
