@@ -2,10 +2,7 @@ import React from "react"
 import "./scss/skills.scss"
 import Menu from "./components/Menu"
 import { library } from "@fortawesome/fontawesome-svg-core"
-import {
-  fab,
-  faTrello
-} from "@fortawesome/free-brands-svg-icons"
+import { faTrello } from "@fortawesome/free-brands-svg-icons"
 import { faHeart, faHourglassHalf, faHandsHelping } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
