@@ -66,11 +66,14 @@ h3 {
     margin-top: 100px;
   }
   h3 {
-    margin-top: 100px;
+    font-size: 30px;
   }
 }
 
 @include mediaMd {
+  h3 {
+    font-size: 35px;
+  }
 }
 
 @include mediaLg {
