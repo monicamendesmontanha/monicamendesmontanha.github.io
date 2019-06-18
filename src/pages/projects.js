@@ -14,9 +14,9 @@ export default () => (
     <div className="container">
 
       <div className="item">
-        <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
         <div>
           <div className="projectName">MY NEWS</div>
+          <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
           <div className="summary">
             <li>
               Listen and read the news around the world in an accessible way
@@ -28,8 +28,10 @@ export default () => (
             </li>
             <li>Click and go to the original article page.</li>
           </div>
+          </a>
         </div>
         <div className="display">
+        <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
           <img
             className="iphone"
             src={MyNewsIphone}
@@ -37,6 +39,8 @@ export default () => (
             height="240"
             width="140"
           />
+          </a>
+          <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
           <img
             className="ipad"
             src={MyNewsIpad}
@@ -44,6 +48,7 @@ export default () => (
             height="300"
             width="240"
           />
+          </a>
         </div>
         <div className="techUsed">
             <div className="tag">React</div>
@@ -51,13 +56,12 @@ export default () => (
             <div className="tag">Express</div>
             <div className="tag">SASS</div>
           </div>
-      </a>
       </div>
 
       <div className="item">
-      <a target="_blank" href="https://trip-wallet.herokuapp.com/">
         <div>
           <div className="projectName">TRIP WALLET</div>
+          <a target="_blank" href="https://trip-wallet.herokuapp.com/">
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
             <li>Automatically conversion the rates.</li>
@@ -66,8 +70,10 @@ export default () => (
               Store and visualise all your expenses organized by category.
             </li>
           </div>
+          </a>
         </div>
         <div className="display">
+        <a target="_blank" href="https://trip-wallet.herokuapp.com/">
           <img
             className="iphone"
             src={TripWalletIphone}
@@ -75,6 +81,8 @@ export default () => (
             height="240"
             width="140"
           />
+          </a>
+          <a target="_blank" href="https://trip-wallet.herokuapp.com/">
           <img
             className="ipad"
             src={TripWalletIpad}
@@ -82,19 +90,19 @@ export default () => (
             height="300"
             width="240"
           />
+        </a>
         </div>
         <div className="techUsed">
             <div className="tag">Ruby on Rails</div>
             <div className="tag">Postgress</div>
             <div className="tag">CSS</div>
           </div>
-      </a>
       </div>
 
       <div className="item">
-      <a target="_blank" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
         <div>
           <div className="projectName">TIC TAC TOE</div>
+          <a target="_blank" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
             <li>Automatically conversion the rates.</li>
@@ -103,21 +111,23 @@ export default () => (
               Store and visualise all your expenses organized by category.
             </li>
           </div>
+        </a>
         </div>
         <div className="display">
+        <a target="_blank" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <img
             src={TicTacToeMonitor}
             alt="Tic Tac Toe Monitor"
             height="240"
             width="340"
           />
+        </a>
         </div>
         <div className="techUsed">
             <div className="tag">Javascript</div>
             <div className="tag">HTML</div>
             <div className="tag">CSS</div>
         </div>
-      </a>
       </div>
 
     </div>
