@@ -14,8 +14,6 @@
 .item {
   font-family: 'Audiowide', cursive;
   background-color: $white;
-  // background-image: linear-gradient(130deg, $purple 0%, $pink 85%, $white 100%);
-  // background-image: linear-gradient(130deg, #6C52D9 0%, #1EAAFC 85%, #3EDFD7 100%);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   color: $black;
   border-radius: 4px;
@@ -25,11 +23,10 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-
 }
 
-.descriptionItem {
-  // border: 2px solid white;
+.item a {
+ color: $black;
 }
 
 .projectName {
@@ -45,9 +42,7 @@
   padding-left: 20px;
   padding-bottom: 10px;
   margin-bottom: 25px;
-
 }
-
 
 .display {
   // border: 2px solid yellow;
@@ -82,14 +77,10 @@
   border-radius: 18px;
 }
 
-
 .techUsed {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  // background-color: $white;
-  // box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  // background-image: linear-gradient(130deg, $purple 0%, $pink 85%, $white 100%);
   box-sizing: border-box;
   padding-top: 10px;
   padding-left: 20px;

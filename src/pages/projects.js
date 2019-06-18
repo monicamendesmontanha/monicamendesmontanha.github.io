@@ -12,8 +12,10 @@ export default () => (
     <Menu />
     <h3>PROJECTS</h3>
     <div className="container">
+
       <div className="item">
-        <div className="descriptionItem">
+        <a target="_blank" href="https://mmm-my-news.herokuapp.com/">
+        <div>
           <div className="projectName">MY NEWS</div>
           <div className="summary">
             <li>
@@ -49,10 +51,12 @@ export default () => (
             <div className="tag">Express</div>
             <div className="tag">SASS</div>
           </div>
+      </a>
       </div>
 
       <div className="item">
-        <div className="descriptionItem">
+      <a target="_blank" href="https://trip-wallet.herokuapp.com/">
+        <div>
           <div className="projectName">TRIP WALLET</div>
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
@@ -84,10 +88,12 @@ export default () => (
             <div className="tag">Postgress</div>
             <div className="tag">CSS</div>
           </div>
+      </a>
       </div>
 
       <div className="item">
-        <div className="descriptionItem">
+      <a target="_blank" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
+        <div>
           <div className="projectName">TIC TAC TOE</div>
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
@@ -110,8 +116,10 @@ export default () => (
             <div className="tag">Javascript</div>
             <div className="tag">HTML</div>
             <div className="tag">CSS</div>
-          </div>
+        </div>
+      </a>
       </div>
+
     </div>
   </>
 )
