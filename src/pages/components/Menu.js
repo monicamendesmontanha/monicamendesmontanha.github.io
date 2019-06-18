@@ -32,6 +32,10 @@ library.add(
 )
 
 export default () => (
+  <>
+  <head>
+    <title>Monica Mendes Montanha</title>
+  </head>
   <div className="menu">
 
   <div className="social">
@@ -93,4 +97,5 @@ export default () => (
       </a>
     </div>
   </div>
+  </>
 )
