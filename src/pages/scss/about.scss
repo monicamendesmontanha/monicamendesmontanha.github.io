@@ -7,20 +7,78 @@
   flex-direction: row;
 }
 
+.img {
+  margin: 0 auto;
+}
+
 .gravata {
   border: 4px solid $black;
   border-radius: 4px;
+  width: 600px;
+  height: 400px;
 }
 
 .textAboutMe {
   // border: 2px solid red;
   width: 50%;
   margin-left: 50px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   text-align: justify;
 }
 
 .textAboutMe span {
   color: $pink;
+}
+
+//mobile
+@include mediaSm {
+  .aboutMe {
+    flex-direction: column;
+  }
+  .textAboutMe {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .gravata {
+    border: 3px solid $black;
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@include mediaMd {
+  .aboutMe {
+    flex-direction: column;
+  }
+  .textAboutMe {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .gravata {
+    border: 3px solid $black;
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@include mediaLg {
+  .aboutMe {
+    flex-direction: column;
+  }
+  .textAboutMe {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+  .gravata {
+    border: 3px solid $black;
+    width: 650px;
+    height: 430px;
+  }
+}
+
+@include mediaXl {
 }

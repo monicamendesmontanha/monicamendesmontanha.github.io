@@ -8,13 +8,12 @@ export default () => (
     <Menu />
     <h3>ABOUT ME</h3>
     <div className="aboutMe">
-      <div>
+      <div className="img">
         <img
               className="gravata"
               src={gravata}
               alt="Gravata"
-              height="400"
-              width="600"
+
             />
       </div>
       <div className="textAboutMe">
