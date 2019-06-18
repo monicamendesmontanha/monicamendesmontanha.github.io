@@ -17,11 +17,11 @@ export default () => (
     </p>
     <form>
       <div className="nameEmail">
-        <input className="name" placeholder="Name"></input>
-        <input className="email" placeholder="Email"></input>
+        <input type="text" className="name" placeholder="Name"></input>
+        <input type="text" className="email" placeholder="Email"></input>
       </div>
       <div className="message">
-        <input placeholder="Message"></input>
+        <input type="text" placeholder="Message"></input>
       </div>
       <div className="send">
         <button type="submit">Send</button>
@@ -35,8 +35,10 @@ export default () => (
       </div>
       <div>•</div>
       <div className="emailFooter">
-        <FontAwesomeIcon icon={faEnvelope} className="emailIcon" />
-        monicamendesmontanha@gmail.com
+        <a target="_blank" href="mailto:monicamendesmontanha@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} className="emailIcon" />
+          <span type="submit">monicamendesmontanha@gmail.com</span>
+        </a>
       </div>
     </div>
   </>
