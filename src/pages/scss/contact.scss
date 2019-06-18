@@ -97,8 +97,11 @@ flex-direction: column;
 // FOOTER ////////////////
 .footer {
   // border-top: 4px solid $black;
+  border: 3px solid green;
+  box-sizing: border-box;
   position: fixed;
   bottom: 0;
+  margin: auto 0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -111,6 +114,7 @@ flex-direction: column;
 }
 
 .cityFooter {
+  border: 1px solid red;
   margin-right: 50px;
 }
 
@@ -120,6 +124,7 @@ flex-direction: column;
 }
 
 .emailFooter {
+  border: 1px solid yellow;
   margin-left: 50px;
 }
 
@@ -165,6 +170,9 @@ flex-direction: column;
     font-size: 14px;
     text-align: center;
   }
+  .cityFooter {
+    margin-right: 0;
+  }
   .emailFooter {
     margin-left: 0;
   }
@@ -199,6 +207,9 @@ flex-direction: column;
     flex-direction: column;
     font-size: 18px;
     text-align: center;
+  }
+  .cityFooter {
+    margin-right: 0;
   }
   .emailFooter {
     margin-left: 0;

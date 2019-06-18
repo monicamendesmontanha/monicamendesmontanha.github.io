@@ -29,17 +29,17 @@ export default () => (
     </form>
 
     <div className="footer">
-      <div className="cityFooter">
-        <FontAwesomeIcon icon={faMapMarkerAlt} className="cityIcon" />
-        Sydney, NSW
-      </div>
-      <div>•</div>
-      <div className="emailFooter">
-        <a target="_blank" rel="noopener noreferrer" href="mailto:monicamendesmontanha@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} className="emailIcon" />
-          <span type="submit">monicamendesmontanha@gmail.com</span>
-        </a>
-      </div>
+        <div className="cityFooter">
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="cityIcon" />
+          Sydney, NSW
+        </div>
+        <div>•</div>
+        <div className="emailFooter">
+          <a target="_blank" rel="noopener noreferrer" href="mailto:monicamendesmontanha@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} className="emailIcon" />
+            <span type="submit">monicamendesmontanha@gmail.com</span>
+          </a>
+        </div>
     </div>
   </>
 )
