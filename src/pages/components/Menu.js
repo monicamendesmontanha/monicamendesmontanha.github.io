@@ -81,9 +81,9 @@ export default () => (
         <Link to="/projects/">
           <FontAwesomeIcon icon={faLaptopCode} />
         </Link>
-        <Link to="/contact/">
+        {/* <Link to="/contact/">
           <FontAwesomeIcon icon={faEnvelope} />
-        </Link>
+        </Link> */}
     </div>
 
     <div className="resume">
