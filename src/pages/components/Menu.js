@@ -86,7 +86,7 @@ export default () => (
     <div className="resume">
       <a
         className="resumeIcon"
-        href="https://drive.google.com/file/d/1lSnwCDXjKhTUIDy4ZfBTCsYIRH2jRRXM/view?usp=sharing"
+        href="/resume/ResumeMonicaMendesMontanha.pdf"
         rel="noopener noreferrer"
         target="_blank"
       >
