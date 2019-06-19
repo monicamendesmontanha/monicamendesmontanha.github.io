@@ -60,14 +60,18 @@
   text-align: right;
   padding-right: 40px;
   padding-top: 25px;
+
+  a :hover {
+    color: $pink;
+  }
 }
 
 .resumeIcon {
   box-sizing: border-box;
-  // border: 2px solid $purple;
+  border: 2px solid $purple;
   border-radius: 4px;
   padding: 4px;
-  background-color: $black;
+  background-color: $purple;
 }
 
 :any-link { color: $white; text-decoration: none}
