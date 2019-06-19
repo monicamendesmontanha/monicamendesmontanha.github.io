@@ -8,11 +8,11 @@ library.add(faMapMarkerAlt, faEnvelope)
 
 export default () => (
   <div className="footer">
-        <div className="cityFooter">
+        {/* <div className="cityFooter">
           <FontAwesomeIcon icon={faMapMarkerAlt} className="cityIcon" />
           Sydney, NSW
         </div>
-        <div>•</div>
+        <div>•</div> */}
         <div className="emailFooter">
           <a target="_blank" rel="noopener noreferrer" href="mailto:monicamendesmontanha@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} className="emailIcon" />
