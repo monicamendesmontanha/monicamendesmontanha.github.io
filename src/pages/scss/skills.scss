@@ -1,10 +1,9 @@
 @import "./config";
 
-.skills {
+.skillsSection {
   // border: 2px solid red;
   margin: 0 auto;
   width: 95%;
-  font-size: 20px;
   box-sizing: border-box;
   padding: 0;
   padding-left: 50px;
@@ -30,6 +29,20 @@
 
 }
 
+.skillTag {
+  color: $white;
+  background-color: $purple;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid $black;
+  padding: 4px;
+  font-size: 20px;
+}
+
 .interestsIcon {
   margin-right: 20px;
   color: $purple;
@@ -41,10 +54,13 @@
     grid-template-columns: repeat(1, auto);
     font-size: 25px;
   }
-  .skills {
+  .skillsSection {
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(13, auto);
+    grid-template-rows: repeat(5, auto);
     padding-left: 0;
+  }
+  .skillTag {
+    font-size: 16px;
   }
 }
 
@@ -53,17 +69,17 @@
     grid-template-columns: repeat(1, auto);
     font-size: 27px;
   }
-  .skills {
+  .skillsSection {
     grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(10, auto);
+    grid-template-rows: repeat(4, auto);
     padding-left: 0;
   }
 }
 
 @include mediaLg {
-  .skills {
+  .skillsSection {
     grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(10, auto);
+    grid-template-rows: repeat(4, auto);
   }
 }
 

@@ -13,20 +13,20 @@ export default () => (
   <>
     <Menu />
     <h3>SKILLS</h3>
-    <p className="skills">
-      <div className="tag">Javascript</div>
-      <div className="tag">React</div>
-      <div className="tag">Ruby</div>
-      <div className="tag">Ruby on Rails</div>
-      <div className="tag">Express</div>
-      <div className="tag">Node.js</div>
-      <div className="tag">JQuery</div>
-      <div className="tag">Graphql</div>
-      <div className="tag">Git</div>
-      <div className="tag">SQL</div>
-      <div className="tag">HTML 5</div>
-      <div className="tag">CSS 3</div>
-      <div className="tag">SASS</div>
+    <p className="skillsSection">
+      <div className="skillTag">Javascript</div>
+      <div className="skillTag">React</div>
+      <div className="skillTag">Ruby</div>
+      <div className="skillTag">Ruby on Rails</div>
+      <div className="skillTag">Express</div>
+      <div className="skillTag">Node.js</div>
+      <div className="skillTag">JQuery</div>
+      <div className="skillTag">Graphql</div>
+      <div className="skillTag">Git</div>
+      <div className="skillTag">SQL</div>
+      <div className="skillTag">HTML 5</div>
+      <div className="skillTag">CSS 3</div>
+      <div className="skillTag">SASS</div>
 
 
     </p>
