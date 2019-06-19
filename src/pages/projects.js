@@ -37,8 +37,6 @@ export default () => (
             className="iphone"
             src={MyNewsIphone}
             alt="My News Iphone"
-            height="240"
-            width="140"
           />
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">
@@ -46,8 +44,6 @@ export default () => (
             className="ipad"
             src={MyNewsIpad}
             alt="My News Ipad"
-            height="300"
-            width="240"
           />
           </a>
         </div>
@@ -79,8 +75,6 @@ export default () => (
             className="iphone"
             src={TripWalletIphone}
             alt="Trip Wallet Iphone"
-            height="240"
-            width="140"
           />
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">
@@ -88,8 +82,6 @@ export default () => (
             className="ipad"
             src={TripWalletIpad}
             alt="Trip Wallet Ipad"
-            height="300"
-            width="240"
           />
         </a>
         </div>
@@ -117,10 +109,9 @@ export default () => (
         <div className="display">
         <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <img
+            className="monitor"
             src={TicTacToeMonitor}
             alt="Tic Tac Toe Monitor"
-            height="240"
-            width="340"
           />
         </a>
         </div>
