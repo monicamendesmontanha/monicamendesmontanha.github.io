@@ -96,12 +96,7 @@ export default () => (
           <div className="projectName">TIC TAC TOE</div>
           <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <div className="summary">
-            <li>Keep track of your expenses while travelling.</li>
-            <li>Automatically conversion the rates.</li>
-            <li>Enjoy travelling and saving money at the same time.</li>
-            <li>
-              Store and visualise all your expenses organized by category.
-            </li>
+            <li>Inspired on Super Nintendo Classic I have built a game using the NES.css Framework, which gives us a nostalgia.</li>
           </div>
         </a>
         </div>
