@@ -4,6 +4,14 @@
   // border: 2px solid red;
   margin: 0 auto;
   width: 95%;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 0;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 2.5rem;
 }
 
 .interests {
@@ -33,16 +41,30 @@
     grid-template-columns: repeat(1, auto);
     font-size: 25px;
   }
+  .skills {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(13, auto);
+    padding-left: 0;
+  }
 }
 
 @include mediaMd {
   .interests {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     font-size: 27px;
+  }
+  .skills {
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(10, auto);
+    padding-left: 0;
   }
 }
 
 @include mediaLg {
+  .skills {
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(10, auto);
+  }
 }
 
 @include mediaXl {

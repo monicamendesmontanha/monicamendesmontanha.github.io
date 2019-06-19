@@ -14,8 +14,21 @@ export default () => (
     <Menu />
     <h3>SKILLS</h3>
     <p className="skills">
-      Javascript React Ruby Ruby on Rails Express Node.js JQuery Graphql HTML 5
-      CSS 3 SASS
+      <div className="tag">Javascript</div>
+      <div className="tag">React</div>
+      <div className="tag">Ruby</div>
+      <div className="tag">Ruby on Rails</div>
+      <div className="tag">Express</div>
+      <div className="tag">Node.js</div>
+      <div className="tag">JQuery</div>
+      <div className="tag">Graphql</div>
+      <div className="tag">Git</div>
+      <div className="tag">SQL</div>
+      <div className="tag">HTML 5</div>
+      <div className="tag">CSS 3</div>
+      <div className="tag">SASS</div>
+
+
     </p>
     <h3>INTERESTS</h3>
     <div className="interests">
