@@ -30,7 +30,7 @@ export default () => (
 
 
     </p>
-    <h3>INTERESTS</h3>
+    <h3 className="titleInterestsSection">INTERESTS</h3>
     <div className="interests">
       <div>
         <FontAwesomeIcon icon={faHeart} className="interestsIcon"/>
