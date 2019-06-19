@@ -96,7 +96,9 @@ export default () => (
           <div className="projectName">TIC TAC TOE</div>
           <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <div className="summary">
-            <li>Inspired on Super Nintendo Classic I have built a game using the NES.css Framework, which gives us a nostalgia.</li>
+            <li>Play the famous game of X's and O's.</li>
+            <li>Inspired on Super Nintendo Classic, the NES.css Framework will bring to you a great nostalgia.</li>
+            <li>Enjoy and invite a 2º player to the game!</li>
           </div>
         </a>
         </div>
@@ -117,6 +119,5 @@ export default () => (
       </div>
 
     </div>
-    {/* <Footer /> */}
   </>
 )
