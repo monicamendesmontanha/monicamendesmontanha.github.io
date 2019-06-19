@@ -1,6 +1,7 @@
 import React from "react"
 import "./scss/skills.scss"
 import Menu from "./components/Menu"
+import Footer from "./components/Footer"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faTrello } from "@fortawesome/free-brands-svg-icons"
 import { faHeart, faHourglassHalf, faHandsHelping } from "@fortawesome/free-solid-svg-icons"
@@ -35,5 +36,6 @@ export default () => (
         Mentoring
       </div>
     </div>
+    <Footer />
   </>
 )

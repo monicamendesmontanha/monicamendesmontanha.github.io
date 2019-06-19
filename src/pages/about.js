@@ -1,5 +1,6 @@
 import React from "react"
 import Menu from "./components/Menu"
+import Footer from "./components/Footer"
 import "./scss/about.scss"
 import gravata from "./img/gravata.jpg"
 
@@ -38,5 +39,6 @@ export default () => (
         </p>
       </div>
     </div>
+    <Footer />
   </div>
 )
