@@ -10,14 +10,39 @@
   // border: 2px solid grey;
   margin: 0 auto;
   width: 95%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   font-size: 30px;
+  box-sizing: border-box;
+  padding: 0;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-gap: 2.5rem;
 
 }
 
 .interestsIcon {
   margin-right: 20px;
   color: $purple;
+}
+
+//mobile
+@include mediaSm {
+  .interests {
+    grid-template-columns: repeat(1, auto);
+    font-size: 25px;
+  }
+}
+
+@include mediaMd {
+  .interests {
+    grid-template-columns: repeat(2, auto);
+    font-size: 27px;
+  }
+}
+
+@include mediaLg {
+}
+
+@include mediaXl {
 }
