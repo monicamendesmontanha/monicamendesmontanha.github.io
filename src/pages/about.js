@@ -18,7 +18,7 @@ export default () => (
             />
       </div>
       <div className="textAboutMe">
-        <p>I'm a junior engineer.</p>
+        <p>I'm a junior software engineer.</p>
 
         <p>
           When I set my mind to something I work very hard to achieve it. Whether it
