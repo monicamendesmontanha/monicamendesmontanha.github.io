@@ -45,11 +45,35 @@
   margin-bottom: 25px;
 }
 
+.sectionDemoCode {
+  // border: 2px solid rgb(231, 56, 109);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto 0;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.demoCodeButton {
+  // border: 2px solid $black;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.demoCodeButton a {
+  color: $pink;
+  border-bottom: 1px solid $purple;
+}
+
 .display {
   // border: 2px solid yellow;
   display: flex;
   flex-direction: row;
-  justify-content:  center;
+  justify-content: center;
   margin: auto 0;
   // margin-bottom: 0;
   margin-bottom: 20px;

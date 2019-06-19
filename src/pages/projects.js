@@ -16,6 +16,10 @@ export default () => (
       <div className="item">
         <div>
           <div className="projectName">MY NEWS</div>
+          <div className="sectionDemoCode">
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">DEMO</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/my-news">CODE</a></div>
+          </div>
           <a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">
           <div className="summary">
             <li>
@@ -57,6 +61,10 @@ export default () => (
       <div className="item">
         <div>
           <div className="projectName">TRIP WALLET</div>
+          <div className="sectionDemoCode">
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">DEMO</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/trip_wallet">CODE</a></div>
+          </div>
           <a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">
           <div className="summary">
             <li>Keep track of your expenses while travelling.</li>
@@ -94,6 +102,10 @@ export default () => (
       <div className="item">
         <div>
           <div className="projectName">TIC TAC TOE</div>
+          <div className="sectionDemoCode">
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">DEMO</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/tic-tac-toe">CODE</a></div>
+          </div>
           <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <div className="summary">
             <li>Play the famous game of X's and O's.</li>
