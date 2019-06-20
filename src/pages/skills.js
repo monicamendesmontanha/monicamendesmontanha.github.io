@@ -34,19 +34,19 @@ export default () => (
     <h3 className="titleInterestsSection">INTERESTS</h3>
     <div className="interests">
       <div>
-        <FontAwesomeIcon icon={faHeart} className="interestsIcon"/>
+        <FontAwesomeIcon className="interestsIcon" icon={faHeart}/>
         Accessibility
       </div>
       <div>
-        <FontAwesomeIcon icon={faTrello} className="interestsIcon"/>
+        <FontAwesomeIcon className="interestsIcon" icon={faTrello}/>
         Planning
       </div>
       <div>
-        <FontAwesomeIcon icon={faHourglassHalf} className="interestsIcon"/>
+        <FontAwesomeIcon className="interestsIcon" icon={faHourglassHalf}/>
         Productivity
       </div>
       <div>
-        <FontAwesomeIcon icon={faHandsHelping}className="interestsIcon" />
+        <FontAwesomeIcon className="interestsIcon" icon={faHandsHelping} />
         Mentoring
       </div>
     </div>
