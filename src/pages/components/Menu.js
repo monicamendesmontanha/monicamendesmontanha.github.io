@@ -75,11 +75,11 @@ export default () => (
         <Link to="/about/">
           <FontAwesomeIcon icon={faFingerprint} />
         </Link>
-        <Link to="/skills/">
-          <FontAwesomeIcon icon={faCodeBranch} />
-        </Link>
         <Link to="/projects/">
           <FontAwesomeIcon icon={faLaptopCode} />
+        </Link>
+        <Link to="/skills/">
+          <FontAwesomeIcon icon={faCodeBranch} />
         </Link>
     </div>
 
