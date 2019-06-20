@@ -14,20 +14,21 @@ export default () => (
     <Menu />
     <h3>SKILLS</h3>
     <p className="skillsSection">
-      <div className="skillTag">Javascript</div>
+      <div className="skillTag">JavaScript</div>
       <div className="skillTag">React</div>
       <div className="skillTag">Ruby on Rails</div>
       <div className="skillTag">Ruby</div>
-      <div className="skillTag">Express</div>
       <div className="skillTag">Node.js</div>
+      <div className="skillTag">Express</div>
       <div className="skillTag">JQuery</div>
       <div className="skillTag">Graphql</div>
-      <div className="skillTag">Git</div>
       <div className="skillTag">SQL</div>
+      <div className="skillTag">MongoDB</div>
+      <div className="skillTag">Git</div>
+      <div className="skillTag">Mobile App</div>
       <div className="skillTag">HTML 5</div>
       <div className="skillTag">CSS 3</div>
       <div className="skillTag">SASS</div>
-
 
     </p>
     <h3 className="titleInterestsSection">INTERESTS</h3>
