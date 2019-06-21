@@ -79,15 +79,16 @@ h3 {
 
 //mobile
 @include mediaSm {
-  // h1 {
-  //   font-size: 75px;
-  //   padding-top: 150px;
-  // }
+  .main p {
+    font-size: 16px;
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 60px;
+  }
   h2 {
     font-size: 28px;
-    // padding-top: 20px;
-    // padding-bottom: 20px;
-    // padding: 20px;
+    padding-top: 20px;
   }
   h3 {
     font-size: 30px;
@@ -96,14 +97,17 @@ h3 {
 }
 
 @include mediaMd {
-  // h1 {
-  //   font-size: 90px;
-  //   padding-top: 120px;
-  // }
-  // h2 {
-  //   font-size: 35px;
-  //   padding-top: 10px;
-  // }
+  .main p {
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 35px;
+    padding-top: 10px;
+  }
   h3 {
     font-size: 35px;
   }
