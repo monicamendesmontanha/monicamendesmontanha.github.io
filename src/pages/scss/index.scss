@@ -168,7 +168,7 @@ $glitch-bg-color: $bg-color;
 
 .glitch::after {
   animation-name: glitch-animation;
-  animation-duration: 10s;
+  animation-duration: 4s;
   left: 4px;
   text-shadow: -1px 0 #eb15b5;
   background: $glitch-bg-color;
@@ -176,7 +176,7 @@ $glitch-bg-color: $bg-color;
 
 .glitch::before {
   animation-name: glitch-animation-2;
-  animation-duration: 10s;
+  animation-duration: 6s;
   left: -4px;
   text-shadow: 1px 0 #eb15b5;
   background: $glitch-bg-color;
