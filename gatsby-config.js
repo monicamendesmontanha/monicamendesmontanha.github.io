@@ -18,9 +18,9 @@ module.exports = {
         logo: "./src/favicon.png",
 
         // WebApp Manifest Configuration
-        appName: Portfolio, // Inferred with your package.json
-        appDescription: Portfolio,
-        developerName: Monica Mendes Montanha,
+        appName: null, // Inferred with your package.json
+        appDescription: null,
+        developerName: null,
         developerURL: null,
         dir: 'auto',
         lang: 'en-US',
