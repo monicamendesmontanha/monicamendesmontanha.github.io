@@ -12,23 +12,23 @@ library.add(faHeart, faTrello, faHourglassHalf, faHandsHelping)
 export default () => (
   <>
     <Menu />
-    <h3>SKILLS</h3>
-    <p className="skillsSection">
-      <div className="skillTag">JavaScript</div>
-      <div className="skillTag">React</div>
-      <div className="skillTag">Ruby on Rails</div>
-      <div className="skillTag">Ruby</div>
-      <div className="skillTag">Node.js</div>
-      <div className="skillTag">Express</div>
-      <div className="skillTag">JQuery</div>
-      <div className="skillTag">Graphql</div>
-      <div className="skillTag">SQL</div>
-      <div className="skillTag">MongoDB</div>
-      <div className="skillTag">Mobile First</div>
-      <div className="skillTag">Git</div>
-      <div className="skillTag">HTML 5</div>
-      <div className="skillTag">CSS 3</div>
-      <div className="skillTag">SASS</div>
+    <h3>TOOLBELT</h3>
+    <p className="toolSection">
+      <div className="toolTag">JavaScript</div>
+      <div className="toolTag">React</div>
+      <div className="toolTag">Ruby on Rails</div>
+      <div className="toolTag">Ruby</div>
+      <div className="toolTag">Node.js</div>
+      <div className="toolTag">Express</div>
+      <div className="toolTag">JQuery</div>
+      <div className="toolTag">Graphql</div>
+      <div className="toolTag">SQL</div>
+      <div className="toolTag">MongoDB</div>
+      <div className="toolTag">Mobile First</div>
+      <div className="toolTag">Git</div>
+      <div className="toolTag">HTML 5</div>
+      <div className="toolTag">CSS 3</div>
+      <div className="toolTag">SASS</div>
 
     </p>
     <h3 className="titleInterestsSection">INTERESTS</h3>
