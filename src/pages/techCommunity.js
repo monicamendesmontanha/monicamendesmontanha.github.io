@@ -20,9 +20,9 @@ import Musesjs11May2019 from "./img/Musesjs11May2019.jpg"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faMeetup } from "@fortawesome/free-brands-svg-icons"
-import { faCode, faChalkboardTeacher } from "@fortawesome/free-solid-svg-icons"
+import { faCode, faUsersCog, faChalkboardTeacher } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-library.add( faMeetup, faCode, faChalkboardTeacher )
+library.add( faMeetup, faCode, faUsersCog, faChalkboardTeacher )
 
 export default () => (
   <>
@@ -117,7 +117,7 @@ export default () => (
           src={LevelUpTW}
           alt="LevelUp program at ThoughtWorks"
         />
-        <p>LevelUp at ThoughtWorks - Oct, 2018 </p>
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="meetupIcon"/>LevelUp at ThoughtWorks - Oct, 2018 </p>
       </div>
 
 
@@ -127,7 +127,7 @@ export default () => (
           src={LevelUpShowcaseWatchEdition}
           alt="Showcase Watch Edition at ThoughtWorks"
         />
-        <p>Showcase Watch Edition - Oct, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="meetupIcon"/>Showcase Watch Edition - Oct, 2018</p>
       </div>
 
 
