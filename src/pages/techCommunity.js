@@ -31,144 +31,159 @@ export default () => (
     <div className="techCommunity">
 
       <div className="techCommunityItem">
+        <span className="eventDate">18 NOV 2017</span>
         <img
           className="techCommunityPicture"
           src={NodeGirls18Nov2017}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls - 18 Nov, 2017</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">08 MAR 2018</span>
         <img
           className="techCommunityPicture"
           src={CodingDojo08Mar18}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo - 08 Mar, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
 
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">05 MAY 2018</span>
         <img
           className="techCommunityPicture"
           src={NodeGirls05May2018}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls - 05 May, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls</p>
       </div>
 
 
       <div className="techCommunityItem">
+        <span className="eventDate">12 SEP 2018</span>
         <img
           className="techCommunityPicture"
           src={NodeGirls12Sep2018}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls  - 12 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">13 SEP 2018</span>
         <img
           className="techCommunityPicture"
           src={CodingDojo13Sep2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 13 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">21 SEP 2018</span>
         <img
           className="techCommunityPicture"
           src={SoftwareCrafters21Sep2018}
           alt="Software Crafters MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters - 21 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">27 SEP 2018</span>
         <img
           className="techCommunityPicture"
           src={CodingDojo27Sep2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 27 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">11 OCT 2018</span>
         <img
           className="techCommunityPicture"
           src={CodingDojo11Oct2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 11 Oct, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
 
 
       <div className="techCommunityItem">
-        <img
-          className="techCommunityPicture"
-          src={LevelUpTW}
-          alt="LevelUp program at ThoughtWorks"
-        />
-        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>LevelUp at ThoughtWorks - Oct, 2018 </p>
-      </div>
-
-
-      <div className="techCommunityItem">
-        <img
-          className="techCommunityPicture"
-          src={LevelUpShowcaseWatchEdition}
-          alt="Showcase Watch Edition at ThoughtWorks"
-        />
-        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>Showcase Watch Edition - Oct, 2018</p>
-      </div>
-
-
-      <div className="techCommunityItem">
+      <span className="eventDate">25 OCT 2018</span>
         <img
           className="techCommunityPicture"
           src={CodingDojo25oct2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 25 Oct, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">27 OCT 2018</span>
+        <img
+          className="techCommunityPicture"
+          src={LevelUpTW}
+          alt="LevelUp program at ThoughtWorks"
+        />
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>LevelUp at ThoughtWorks</p>
+      </div>
+
+
+      <div className="techCommunityItem">
+      <span className="eventDate"> 27 OCT 2018</span>
+        <img
+          className="techCommunityPicture"
+          src={LevelUpShowcaseWatchEdition}
+          alt="Showcase Watch Edition at ThoughtWorks"
+        />
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>Showcase Watch Edition</p>
+      </div>
+
+
+
+      <div className="techCommunityItem">
+      <span className="eventDate">08 NOV 2018</span>
         <img
           className="techCommunityPicture"
           src={CodingDojo08Nov2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 08 Nov, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">30 NOV 2018</span>
         <img
           className="techCommunityPicture"
           src={SoftwareCrafters30Nov2018}
           alt="Software Crafters MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters - 30 Nov, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters</p>
       </div>
 
 
 
       <div className="techCommunityItem">
+      <span className="eventDate">11 MAY 2019</span>
         <img
           className="techCommunityPicture"
           src={Musesjs11May2019}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Muses JS - 11 May, 2019</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Muses JS</p>
       </div>
 
     </div>

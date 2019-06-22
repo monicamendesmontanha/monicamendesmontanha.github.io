@@ -30,20 +30,31 @@
 .techCommunityPicture {
   height: 220px;
   width: 400px;
-  border-radius: 4px 4px 0 0;
+  // border-radius: 4px 4px 0 0;
   margin: 0 auto;
-}
-
-.eventName {
-  font-size: 16px;
-  margin: 0 auto;
-  padding: 4px;
 }
 
 .eventIcon {
   margin-right: 10px;
   color: $purple;
   font-size: 18px;
+}
+
+.eventName {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.eventDate {
+  font-size: 17px;
+  padding: 4px;
+  color: $white;
+  background-color: $black;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 2px solid $purple;
+  box-sizing: border-box;
+
 }
 
 
@@ -57,13 +68,15 @@
     height: 150px;
     width: 295px;
   }
-  .eventName {
-    font-size: 12px;
-    margin: 0 auto;
-  }
   .eventIcon {
     margin-right: 5px;
     font-size: 13px;
+  }
+  .eventName {
+    font-size: 12px;
+  }
+  .eventDate {
+    font-size: 11px;
   }
 }
 
@@ -76,12 +89,15 @@
     height: 170px;
     width: 300px;
   }
-  .eventName {
-    font-size: 13px;
-  }
   .eventIcon {
     margin-right: 5px;
     font-size: 14px;
+  }
+  .eventName {
+    font-size: 13px;
+  }
+  .eventDate {
+    font-size: 12px;
   }
 }
 
@@ -94,12 +110,15 @@
     height: 190px;
     width: 350px;
   }
-  .eventName {
-    font-size: 13px;
-  }
   .eventIcon {
     margin-right: 7px;
     font-size: 15px;
+  }
+  .eventName {
+    font-size: 13px;
+  }
+  .eventDate {
+    font-size: 12px;
   }
 }
 
@@ -108,11 +127,14 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(10, auto);
   }
-  .eventName {
-    font-size: 14px;
-  }
   .eventIcon {
     margin-right: 8px;
     font-size: 16px;
+  }
+  .eventName {
+    font-size: 14px;
+  }
+  .eventDate {
+    font-size: 13px;
   }
 }
