@@ -20,15 +20,21 @@
 
 .textAboutMe {
   // border: 2px solid red;
-  width: 50%;
-  margin-left: 50px;
-  font-size: 25px;
-  line-height: 30px;
+  width: 60%;
+  margin-left: 35px;
+  font-size: 18px;
+  line-height: 21px;
   text-align: justify;
+  padding-top: 0;
 }
 
 .textAboutMe span {
   color: $pink;
+}
+
+.textAboutMe a {
+  color: $black;
+  border-bottom: 0.1px solid $purple;
 }
 
 //mobile
