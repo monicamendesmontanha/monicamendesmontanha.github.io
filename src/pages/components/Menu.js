@@ -44,6 +44,7 @@ export default () => (
       <div className="socialIcon">
         <a
           href="https://github.com/monicamendesmontanha"
+          title="Go to Monica Mendes Montanha's GitHub"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -53,6 +54,7 @@ export default () => (
       <div className="socialIcon">
         <a
           href="https://www.linkedin.com/in/monicamendesmontanha/"
+          title="Go to Monica Mendes Montanha's LikedIn"
           rel="noopener noreferrer"
           target="_blank"
         >
