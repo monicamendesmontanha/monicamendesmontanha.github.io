@@ -6,6 +6,11 @@ import MyNewsIpad from "./img/MyNewsIpad.png"
 import TripWalletIphone from "./img/TripWalletIphone.png"
 import TripWalletIpad from "./img/TripWalletIpad.png"
 import TicTacToeMonitor from "./img/TicTacToeMonitor.png"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { faGithubAlt } from "@fortawesome/free-brands-svg-icons"
+import { faDesktop, faLaptop } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+library.add( faGithubAlt, faDesktop, faLaptop )
 
 export default () => (
   <>
@@ -17,8 +22,8 @@ export default () => (
         <div>
           <div className="projectName">MY NEWS</div>
           <div className="sectionDemoCode">
-            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">DEMO</a></div>
-            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/my-news">CODE</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/"><FontAwesomeIcon icon={faDesktop} className="demoCodeIcon"/>DEMO</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/my-news"><FontAwesomeIcon icon={faGithubAlt} className="demoCodeIcon"/>CODE</a></div>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://mmm-my-news.herokuapp.com/">
           <div className="summary">
@@ -62,8 +67,8 @@ export default () => (
         <div>
           <div className="projectName">TRIP WALLET</div>
           <div className="sectionDemoCode">
-            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">DEMO</a></div>
-            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/trip_wallet">CODE</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/"><FontAwesomeIcon icon={faDesktop} className="demoCodeIcon"/>DEMO</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/trip_wallet"><FontAwesomeIcon icon={faGithubAlt} className="demoCodeIcon"/>CODE</a></div>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://trip-wallet.herokuapp.com/">
           <div className="summary">
@@ -103,8 +108,8 @@ export default () => (
         <div>
           <div className="projectName">TIC TAC TOE</div>
           <div className="sectionDemoCode">
-            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">DEMO</a></div>
-            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/tic-tac-toe">CODE</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/"><FontAwesomeIcon icon={faDesktop} className="demoCodeIcon"/>DEMO</a></div>
+            <div className="demoCodeButton"><a target="_blank" rel="noopener noreferrer" href="https://github.com/monicamendesmontanha/tic-tac-toe"><FontAwesomeIcon icon={faGithubAlt} className="demoCodeIcon"/>CODE</a></div>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://monicamendesmontanha.github.io/tic-tac-toe/">
           <div className="summary">
