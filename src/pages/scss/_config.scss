@@ -26,18 +26,27 @@ $purple: #8a1ad4;
     @content;
   }
 }
+
 @mixin mediaMd {
   @media screen and (min-width: 701px)  and (max-width: 900px) {
     @content;
   }
 }
+
 @mixin mediaLg {
   @media screen and (min-width: 901px) and (max-width: 1200px) {
     @content;
   }
 }
+
 @mixin mediaXl {
-  @media screen and (min-width: 1201px) {
+  @media screen and (min-width: 1201px) and (max-width: 1370px) {
+    @content;
+  }
+}
+
+@mixin mediaXx {
+  @media screen and (min-width: 1371px) {
     @content;
   }
 }

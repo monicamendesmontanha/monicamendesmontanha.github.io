@@ -19,6 +19,7 @@
   background-color: $white;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
+  box-sizing: border-box;
   color: $black;
   text-align: center;
   display: flex;
@@ -30,66 +31,88 @@
   height: 220px;
   width: 400px;
   border-radius: 4px 4px 0 0;
+  margin: 0 auto;
 }
 
 .eventName {
   font-size: 16px;
+  margin: 0 auto;
+  padding: 4px;
 }
 
 .eventIcon {
   margin-right: 10px;
   color: $purple;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
 //mobile
 @include mediaSm {
-  .container {
+  .techCommunity {
     grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(16, auto);
   }
-  .projectName {
-    font-size: 30px;
-    padding-top: 8px;
-    padding-left: 10px;
+  .techCommunityPicture {
+    height: 115px;
+    width: 295px;
   }
-  .summary {
-    font-size: 18px;
-    margin-left: 10px;
-  }
-  .iphone {
-    margin-right: 10px;
-    height: 210px;
-    width: 110px;
-  }
-  .ipad {
-    height: 270px;
-    width: 210px;
-  }
-
-  .monitor {
-    height: 200px;
-    width: 300px;
-  }
-  .techUsed {
-    padding-left: 10px;
-  }
-  .tag {
+  .eventName {
     font-size: 12px;
+    margin: 0 auto;
+  }
+  .eventIcon {
+    margin-right: 5px;
+    font-size: 13px;
   }
 }
 
 @include mediaMd {
-  .container {
-    grid-template-columns: repeat(1, auto);
+  .techCommunity {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+  }
+  .techCommunityPicture {
+    height: 120px;
+    width: 300px;
+  }
+  .eventName {
+    font-size: 13px;
+  }
+  .eventIcon {
+    margin-right: 5px;
+    font-size: 14px;
   }
 }
 
 @include mediaLg {
-  .container {
+  .techCommunity {
     grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+  }
+  .techCommunityPicture {
+    height: 170px;
+    width: 350px;
+  }
+  .eventName {
+    font-size: 13px;
+  }
+  .eventIcon {
+    margin-right: 7px;
+    font-size: 15px;
   }
 }
 
 @include mediaXl {
+  .techCommunity {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+  }
+  .eventName {
+    font-size: 14px;
+  }
+  .eventIcon {
+    margin-right: 8px;
+    font-size: 16px;
+  }
 }
