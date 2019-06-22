@@ -81,21 +81,22 @@
 //mobile
 @include mediaSm {
   .social {
-    font-size: 12px;
-    width: 12%;
-    padding-left: 15px;
+    font-size: 15px;
+    width: 7%;
+    padding-left: 10px;
     flex-direction: column;
-    padding-left: 20px;
+    // padding-left: 20px;
   }
   .socialIcon {
-    padding: 2px;
+    padding: 1.5px;
   }
   .navBar {
     font-size: 30px;
     width: 70%;
+    justify-content: space-between;
   }
   .resume {
-    font-size: 12px;
+    font-size: 11px;
     width: 17%;
     padding-right: 10px;
     padding-top: 25px;
