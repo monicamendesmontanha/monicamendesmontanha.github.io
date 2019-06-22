@@ -12,7 +12,7 @@ import {
   faHome,
   faFingerprint,
   faLaptopCode,
-  faCodeBranch,
+  faTools,
   faEnvelope,
   faFileDownload,
 } from "@fortawesome/free-solid-svg-icons"
@@ -22,7 +22,7 @@ library.add(
   faHome,
   faFingerprint,
   faLaptopCode,
-  faCodeBranch,
+  faTools,
   faEnvelope,
   faFileDownload,
   fab,
@@ -79,7 +79,7 @@ export default () => (
           <FontAwesomeIcon icon={faLaptopCode} />
         </Link>
         <Link to="/skills/">
-          <FontAwesomeIcon icon={faCodeBranch} />
+          <FontAwesomeIcon icon={faTools} />
         </Link>
     </div>
 
