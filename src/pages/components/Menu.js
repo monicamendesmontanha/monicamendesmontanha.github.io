@@ -59,7 +59,7 @@ export default () => (
           <FontAwesomeIcon icon={faLinkedinIn} className="socialIcon"/>
         </a>
       </div>
-      <div className="socialIcon">
+      {/* <div className="socialIcon">
         <a
           href="https://twitter.com/monica_mendes_m"
           rel="noopener noreferrer"
@@ -67,7 +67,7 @@ export default () => (
         >
           <FontAwesomeIcon icon={faTwitter} className="socialIcon"/>
         </a>
-      </div>
+      </div> */}
     </div>
 
     <div className="navBar">
