@@ -1,0 +1,14 @@
+@import "./config";
+
+
+.techCommunity {
+  border: 2px solid red;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 2.5rem;
+}
