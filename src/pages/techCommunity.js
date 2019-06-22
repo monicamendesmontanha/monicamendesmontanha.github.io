@@ -36,7 +36,7 @@ export default () => (
           src={NodeGirls18Nov2017}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="meetupIcon"/>Node Girls - 18 Nov, 2017</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls - 18 Nov, 2017</p>
       </div>
 
 
@@ -46,7 +46,7 @@ export default () => (
           src={CodingDojo08Mar18}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="meetupIcon"/>Coding Dojo - 08 Mar, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo - 08 Mar, 2018</p>
       </div>
 
 
@@ -57,7 +57,7 @@ export default () => (
           src={NodeGirls05May2018}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="meetupIcon"/>Node Girls - 05 May, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls - 05 May, 2018</p>
       </div>
 
 
@@ -67,7 +67,7 @@ export default () => (
           src={NodeGirls12Sep2018}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="meetupIcon"/>Node Girls  - 12 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls  - 12 Sep, 2018</p>
       </div>
 
 
@@ -77,7 +77,7 @@ export default () => (
           src={CodingDojo13Sep2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="meetupIcon"/>Coding Dojo  - 13 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 13 Sep, 2018</p>
       </div>
 
 
@@ -87,7 +87,7 @@ export default () => (
           src={SoftwareCrafters21Sep2018}
           alt="Software Crafters MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="meetupIcon"/>Software Crafters - 21 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters - 21 Sep, 2018</p>
       </div>
 
 
@@ -97,7 +97,7 @@ export default () => (
           src={CodingDojo27Sep2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="meetupIcon"/>Coding Dojo  - 27 Sep, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 27 Sep, 2018</p>
       </div>
 
 
@@ -107,7 +107,7 @@ export default () => (
           src={CodingDojo11Oct2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="meetupIcon"/>Coding Dojo  - 11 Oct, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 11 Oct, 2018</p>
       </div>
 
 
@@ -117,7 +117,7 @@ export default () => (
           src={LevelUpTW}
           alt="LevelUp program at ThoughtWorks"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="meetupIcon"/>LevelUp at ThoughtWorks - Oct, 2018 </p>
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>LevelUp at ThoughtWorks - Oct, 2018 </p>
       </div>
 
 
@@ -127,7 +127,7 @@ export default () => (
           src={LevelUpShowcaseWatchEdition}
           alt="Showcase Watch Edition at ThoughtWorks"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="meetupIcon"/>Showcase Watch Edition - Oct, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>Showcase Watch Edition - Oct, 2018</p>
       </div>
 
 
@@ -137,7 +137,7 @@ export default () => (
           src={CodingDojo25oct2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="meetupIcon"/>Coding Dojo  - 25 Oct, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 25 Oct, 2018</p>
       </div>
 
 
@@ -147,7 +147,7 @@ export default () => (
           src={CodingDojo08Nov2018}
           alt="Coding Dojo"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faCode} className="meetupIcon"/>Coding Dojo  - 08 Nov, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo  - 08 Nov, 2018</p>
       </div>
 
 
@@ -157,7 +157,7 @@ export default () => (
           src={SoftwareCrafters30Nov2018}
           alt="Software Crafters MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="meetupIcon"/>Software Crafters - 30 Nov, 2018</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters - 30 Nov, 2018</p>
       </div>
 
 
@@ -168,7 +168,7 @@ export default () => (
           src={Musesjs11May2019}
           alt="Node Girls MeetUp"
         />
-        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="meetupIcon"/>Muses JS - 11 May, 2019</p>
+        <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Muses JS - 11 May, 2019</p>
       </div>
 
     </div>

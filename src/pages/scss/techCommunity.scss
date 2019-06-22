@@ -36,8 +36,60 @@
   font-size: 16px;
 }
 
-.meetupIcon {
+.eventIcon {
   margin-right: 10px;
   color: $purple;
   font-size: 20px;
+}
+
+
+//mobile
+@include mediaSm {
+  .container {
+    grid-template-columns: repeat(1, auto);
+  }
+  .projectName {
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 10px;
+  }
+  .summary {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .iphone {
+    margin-right: 10px;
+    height: 210px;
+    width: 110px;
+  }
+  .ipad {
+    height: 270px;
+    width: 210px;
+  }
+
+  .monitor {
+    height: 200px;
+    width: 300px;
+  }
+  .techUsed {
+    padding-left: 10px;
+  }
+  .tag {
+    font-size: 12px;
+  }
+}
+
+@include mediaMd {
+  .container {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@include mediaLg {
+  .container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@include mediaXl {
 }
