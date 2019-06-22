@@ -22,13 +22,13 @@ export default () => (
           When I set my mind to something I work very hard to achieve it.
           Whether it be building a career as a physiotherapist in Brazil, coming
           to Sydney to learn English or my current focus of reskilling as a
-          Software Developer.
+          software engineer.
         </p>
 
         <p>
           I was a physiotherapist for 7 years, I always have worked helping the
           development of children with impairments. I have worked in different
-          scenarios like Intensive Care Unit (ICU) at Hospitals, Hydrotherapy at
+          scenarios like Intensive Care Unit (ICU) at hospitals, hydrotherapy at
           the pool and at clinics at the gymnasium.
         </p>
 
