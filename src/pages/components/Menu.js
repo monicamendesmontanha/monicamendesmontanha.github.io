@@ -13,7 +13,7 @@ import {
   faFingerprint,
   faLaptopCode,
   faTools,
-  faHandsHelping,
+  faShareAlt,
   faEnvelope,
   faFileDownload,
 } from "@fortawesome/free-solid-svg-icons"
@@ -24,7 +24,7 @@ library.add(
   faFingerprint,
   faLaptopCode,
   faTools,
-  faHandsHelping,
+  faShareAlt,
   faEnvelope,
   faFileDownload,
   fab,
@@ -84,7 +84,7 @@ export default () => (
           <FontAwesomeIcon icon={faTools} />
         </Link>
         <Link to="/techCommunity/">
-          <FontAwesomeIcon icon={faHandsHelping} />
+          <FontAwesomeIcon icon={faShareAlt} />
         </Link>
     </div>
 
