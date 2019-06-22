@@ -74,19 +74,19 @@ export default () => (
 
     <div className="navBar">
         <Link to="/">
-          <FontAwesomeIcon icon={faHome} />
+          <FontAwesomeIcon icon={faHome} aria-hidden="true" title="Go to home page"/>
         </Link>
         <Link to="/about/">
-          <FontAwesomeIcon icon={faFingerprint} />
+          <FontAwesomeIcon icon={faFingerprint} aria-hidden="true" title="Go to about me page"/>
         </Link>
         <Link to="/projects/">
-          <FontAwesomeIcon icon={faLaptopCode} />
+          <FontAwesomeIcon icon={faLaptopCode} aria-hidden="true" title="Go to projects page"/>
         </Link>
         <Link to="/skills/">
-          <FontAwesomeIcon icon={faTools} />
+          <FontAwesomeIcon icon={faTools} aria-hidden="true" title="Go to skills page"/>
         </Link>
         <Link to="/techCommunity/">
-          <FontAwesomeIcon icon={faShareAlt} />
+          <FontAwesomeIcon icon={faShareAlt} aria-hidden="true" title="Go to tech community page"/>
         </Link>
     </div>
 
@@ -94,10 +94,11 @@ export default () => (
       <a
         className="resumeIcon"
         href="/resume/ResumeMonicaMendesMontanha.pdf"
+        title="Go to Monica Mendes Montanha's resume"
         rel="noopener noreferrer"
         target="_blank"
       >
-        CV <FontAwesomeIcon icon={faFileDownload} />
+        CV <FontAwesomeIcon icon={faFileDownload} aria-hidden="true" title="Go to Monica Mendes Montanha's resume"/>
       </a>
     </div>
   </div>
