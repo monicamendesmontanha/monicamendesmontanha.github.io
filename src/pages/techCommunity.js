@@ -35,7 +35,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={NodeGirls18Nov2017}
-          alt="Node Girls MeetUp"
+          alt="Node Girls Meetup Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls</p>
       </div>
@@ -46,7 +46,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={CodingDojo08Mar18}
-          alt="Coding Dojo"
+          alt="Coding Dojo Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
@@ -58,7 +58,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={NodeGirls05May2018}
-          alt="Node Girls MeetUp"
+          alt="Node Girls Meetup Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls</p>
       </div>
@@ -69,7 +69,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={NodeGirls12Sep2018}
-          alt="Node Girls MeetUp"
+          alt="Node Girls Meetup Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Node Girls</p>
       </div>
@@ -80,7 +80,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={CodingDojo13Sep2018}
-          alt="Coding Dojo"
+          alt="Coding Dojo Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
@@ -91,7 +91,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={SoftwareCrafters21Sep2018}
-          alt="Software Crafters MeetUp"
+          alt="Software Crafters Meetup Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters</p>
       </div>
@@ -102,7 +102,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={CodingDojo27Sep2018}
-          alt="Coding Dojo"
+          alt="Coding Dojo Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
@@ -113,7 +113,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={CodingDojo11Oct2018}
-          alt="Coding Dojo"
+          alt="Coding Dojo Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
@@ -122,7 +122,7 @@ export default () => (
       <div className="techCommunityItem">
       <span className="eventDate">25 OCT 2018</span>
         <img
-          className="techCommunityPicture"
+          className="techCommunityPicture Picture"
           src={CodingDojo25oct2018}
           alt="Coding Dojo"
         />
@@ -135,7 +135,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={LevelUpTW}
-          alt="LevelUp program at ThoughtWorks"
+          alt="LevelUp program at ThoughtWorks Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>LevelUp at ThoughtWorks</p>
       </div>
@@ -146,7 +146,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={LevelUpShowcaseWatchEdition}
-          alt="Showcase Watch Edition at ThoughtWorks"
+          alt="Showcase Watch Edition at ThoughtWorks Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>Showcase Watch Edition</p>
       </div>
@@ -158,7 +158,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={CodingDojo08Nov2018}
-          alt="Coding Dojo"
+          alt="Coding Dojo Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faCode} className="eventIcon"/>Coding Dojo</p>
       </div>
@@ -169,7 +169,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={SoftwareCrafters30Nov2018}
-          alt="Software Crafters MeetUp"
+          alt="Software Crafters Meetup Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters</p>
       </div>
@@ -181,7 +181,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={Musesjs11May2019}
-          alt="Node Girls MeetUp"
+          alt="Muses JS Meetup Picture"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Muses JS</p>
       </div>
