@@ -25,40 +25,6 @@ export default () => (
         <img className="gravata" src={gravata} alt="Gravata" />
       </div>
 
-        <div className="contactMeSocial">
-          <div className="contactMeSocialIcon">
-            <a
-              href="https://github.com/monicamendesmontanha"
-              title="Go to Monica Mendes Montanha's GitHub"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faGithubAlt} className="socialIcon" />
-            </a>
-          </div>
-
-          <div className="contactMeSocialIcon">
-            <a
-              href="https://www.linkedin.com/in/monicamendesmontanha/"
-              title="Go to Monica Mendes Montanha's LikedIn"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faLinkedinIn} className="socialIcon" />
-            </a>
-          </div>
-
-          <div className="contactMeSocialIcon">
-            <a
-              href="https://twitter.com/monica_mendes_m"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faTwitter} className="socialIcon" />
-            </a>
-          </div>
-        </div>
-
       <div className="textAboutMe">
         <p>
           I'm a junior software engineer. I'm looking for an opportunity in
@@ -116,24 +82,55 @@ export default () => (
           found my people!
         </p>
       </div>
-    </div>
 
-            {/* <div className="downloadMyResume">
+      <div>
+        <a className="downloadMyResume"
+          href="/resume/ResumeMonicaMendesMontanha.pdf"
+          title="Go to Monica Mendes Montanha's resume"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+        <FontAwesomeIcon className="downloadMyResumeIcon" icon={faFileDownload}/>
+          Download My Resume
+        </a>
+      </div>
+
+      <div className="contactMeSocial">
+        <div>
           <a
-            className="downloadMyResumeicon"
-            href="/resume/ResumeMonicaMendesMontanha.pdf"
-            title="Go to Monica Mendes Montanha's resume"
+            href="https://github.com/monicamendesmontanha"
+            title="Go to Monica Mendes Montanha's GitHub"
             rel="noopener noreferrer"
             target="_blank"
           >
-            CV{" "}
-            <FontAwesomeIcon
-              icon={faFileDownload}
-              aria-hidden="true"
-              title="Go to Monica Mendes Montanha's resume"
-            />
+            <FontAwesomeIcon icon={faGithubAlt} className="contactMeSocialIcon" />
           </a>
-        </div> */}
+        </div>
+
+        <div>
+          <a
+            href="https://www.linkedin.com/in/monicamendesmontanha/"
+            title="Go to Monica Mendes Montanha's LikedIn"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} className="contactMeSocialIcon" />
+          </a>
+        </div>
+
+        <div>
+          <a
+            href="https://twitter.com/monica_mendes_m"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter} className="contactMeSocialIcon" />
+          </a>
+        </div>
+      </div>
+
+
+    </div>
 
     <Footer />
   </div>
