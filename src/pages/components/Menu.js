@@ -42,7 +42,7 @@ export default () => (
   </head>
   <div className="menu">
 
-  <div className="social">
+    <div className="social">
       <div className="socialIcon">
         <a
           href="https://github.com/monicamendesmontanha"

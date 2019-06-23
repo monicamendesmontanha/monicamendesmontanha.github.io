@@ -5,6 +5,17 @@ import Footer from "./components/Footer"
 import "./scss/about.scss"
 import gravata from "./img/gravata.jpg"
 
+import { library } from "@fortawesome/fontawesome-svg-core"
+import {
+  faLinkedinIn,
+  faGithubAlt,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons"
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+library.add(faFileDownload, faLinkedinIn, faGithubAlt, faTwitter)
+
 export default () => (
   <div>
     <Menu />
@@ -13,6 +24,41 @@ export default () => (
       <div className="img">
         <img className="gravata" src={gravata} alt="Gravata" />
       </div>
+
+        <div className="contactMeSocial">
+          <div className="contactMeSocialIcon">
+            <a
+              href="https://github.com/monicamendesmontanha"
+              title="Go to Monica Mendes Montanha's GitHub"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithubAlt} className="socialIcon" />
+            </a>
+          </div>
+
+          <div className="contactMeSocialIcon">
+            <a
+              href="https://www.linkedin.com/in/monicamendesmontanha/"
+              title="Go to Monica Mendes Montanha's LikedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedinIn} className="socialIcon" />
+            </a>
+          </div>
+
+          <div className="contactMeSocialIcon">
+            <a
+              href="https://twitter.com/monica_mendes_m"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faTwitter} className="socialIcon" />
+            </a>
+          </div>
+        </div>
+
       <div className="textAboutMe">
         <p>
           I'm a junior software engineer. I'm looking for an opportunity in
@@ -71,6 +117,24 @@ export default () => (
         </p>
       </div>
     </div>
+
+            {/* <div className="downloadMyResume">
+          <a
+            className="downloadMyResumeicon"
+            href="/resume/ResumeMonicaMendesMontanha.pdf"
+            title="Go to Monica Mendes Montanha's resume"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CV{" "}
+            <FontAwesomeIcon
+              icon={faFileDownload}
+              aria-hidden="true"
+              title="Go to Monica Mendes Montanha's resume"
+            />
+          </a>
+        </div> */}
+
     <Footer />
   </div>
 )
