@@ -14,8 +14,8 @@
 }
 
 .toolTag {
-  color: $white;
-  background-color: $purple;
+  color: $black;
+  background-color: $white;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
   margin-top: 0;
   margin-bottom: 0;
@@ -24,6 +24,10 @@
   border: 2px solid $black;
   padding: 4px;
   font-size: 20px;
+}
+
+.toolIcon {
+  margin-right: 10px;
 }
 
 .titleInterestsSection {
