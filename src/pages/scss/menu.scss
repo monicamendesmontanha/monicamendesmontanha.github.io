@@ -81,25 +81,28 @@
 //mobile
 @include mediaSm {
   .social {
-    font-size: 15px;
-    width: 7%;
-    padding-left: 10px;
-    flex-direction: column;
+    display: none;
+    // font-size: 15px;
+    // width: 7%;
+    // padding-left: 10px;
+    // flex-direction: column;
     // padding-left: 20px;
   }
-  .socialIcon {
-    padding: 1.5px;
-  }
+  // .socialIcon {
+  //   padding: 1.5px;
+  // }
   .navBar {
-    font-size: 30px;
-    width: 70%;
-    justify-content: space-between;
+    font-size: 35px;
+    width: 95%;
+    justify-content: space-around;
+    margin: 0 auto;
   }
   .resume {
-    font-size: 11px;
-    width: 17%;
-    padding-right: 10px;
-    padding-top: 25px;
+    display: none;
+    // font-size: 11px;
+    // width: 17%;
+    // padding-right: 10px;
+    // padding-top: 25px;
   }
 }
 
