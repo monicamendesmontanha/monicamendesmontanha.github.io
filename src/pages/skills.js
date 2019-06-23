@@ -41,12 +41,12 @@ const tools = [
     name: "JQuery"
   },
   {
-    iconClassName: "devicon-mysql-plain colored",
-    name: "My SQL"
-  },
-  {
     iconClassName: "devicon-postgresql-plain colored",
     name: "Postgresql"
+  },
+  {
+    iconClassName: "devicon-mysql-plain colored",
+    name: "My SQL"
   },
   {
     iconClassName: "devicon-mongodb-plain colored",
