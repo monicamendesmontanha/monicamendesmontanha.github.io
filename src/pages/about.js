@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Menu from "./components/Menu"
 import Footer from "./components/Footer"
 import "./scss/about.scss"
@@ -39,8 +40,7 @@ export default () => (
         </p>
 
         <p>
-          I have embedded myself in the Sydney tech industry by attending
-          meetups, enrolling in the <a target="_blank" rel="noopener noreferrer" href="https://levelup.thoughtworks.com/about-levelup" >LevelUp</a> program at ThoughtWorks and studying
+          I have embedded myself in the Sydney tech industry by attending <Link to="/techCommunity/">meetups</Link>, enrolling in the <a target="_blank" rel="noopener noreferrer" href="https://levelup.thoughtworks.com/about-levelup" >LevelUp</a> program at ThoughtWorks and studying
           the <a target="_blank" rel="noopener noreferrer" href="https://generalassemb.ly/education/software-engineering-immersive/sydney" >Software Engineering Immersive</a> course at General Assembly.
         </p>
 
