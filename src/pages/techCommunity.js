@@ -16,6 +16,7 @@ import CodingDojo25oct2018 from "./img/CodingDojo25oct2018.jpg"
 import LevelUpTW from "./img/LevelUpTW.jpg"
 import CodingDojo08Nov2018 from "./img/CodingDojo08Nov2018.jpg"
 import SoftwareCrafters30Nov2018 from "./img/SoftwareCrafters30Nov2018.jpg"
+import GA10Apr2019 from "./img/GA10Apr2019.jpg"
 import Musesjs11May2019 from "./img/Musesjs11May2019.jpg"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
@@ -174,6 +175,16 @@ export default () => (
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Software Crafters</p>
       </div>
 
+
+      <div className="techCommunityItem">
+      <span className="eventDate">11 MAY 2019</span>
+        <img
+          className="techCommunityPicture"
+          src={GA10Apr2019}
+          alt="General Assembly"
+        />
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>General Assembly</p>
+      </div>
 
 
       <div className="techCommunityItem">
