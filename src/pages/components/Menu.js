@@ -13,6 +13,7 @@ import {
   faFingerprint,
   faLaptopCode,
   faTools,
+  faHandsHelping,
   faShareAlt,
   faEnvelope,
   faFileDownload,
@@ -24,6 +25,7 @@ library.add(
   faFingerprint,
   faLaptopCode,
   faTools,
+  faHandsHelping,
   faShareAlt,
   faEnvelope,
   faFileDownload,
@@ -86,7 +88,7 @@ export default () => (
           <FontAwesomeIcon icon={faTools} aria-hidden="true" title="Go to skills page"/>
         </Link>
         <Link to="/techCommunity/">
-          <FontAwesomeIcon icon={faShareAlt} aria-hidden="true" title="Go to tech community page"/>
+          <FontAwesomeIcon icon={faHandsHelping} aria-hidden="true" title="Go to tech community page"/>
         </Link>
     </div>
 
