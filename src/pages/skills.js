@@ -1,6 +1,7 @@
 import React from "react"
 import "./scss/skills.scss"
 import "devicon/devicon.css"
+import "devicon/devicon-colors.css"
 import Menu from "./components/Menu"
 import Footer from "./components/Footer"
 import { library } from "@fortawesome/fontawesome-svg-core"
@@ -12,59 +13,59 @@ library.add(faHeart, faTrello, faHourglassHalf, faHandsHelping, faMobileAlt)
 
 const tools = [
   {
-    iconClassName: "devicon-javascript-plain",
+    iconClassName: "devicon-javascript-plain colored",
     name: "JavaScript"
   },
   {
-    iconClassName: "devicon-react-original",
+    iconClassName: "devicon-react-original colored",
     name: "React"
   },
   {
-    iconClassName: "devicon-rails-plain",
+    iconClassName: "devicon-rails-plain colored",
     name: "Ruby on Rails"
   },
   {
-    iconClassName: "devicon-ruby-plain",
+    iconClassName: "devicon-ruby-plain colored",
     name: "Ruby"
   },
   {
-    iconClassName: "devicon-nodejs-plain",
+    iconClassName: "devicon-nodejs-plain colored",
     name: "Node.js"
   },
   {
-    iconClassName: "devicon-express-original",
+    iconClassName: "devicon-express-original colored",
     name: "Express"
   },
   {
-    iconClassName: "devicon-jquery-plain",
+    iconClassName: "devicon-jquery-plain colored",
     name: "JQuery"
   },
   {
-    iconClassName: "devicon-mysql-plain",
+    iconClassName: "devicon-mysql-plain colored",
     name: "My SQL"
   },
   {
-    iconClassName: "devicon-postgresql-plain",
+    iconClassName: "devicon-postgresql-plain colored",
     name: "Postgresql"
   },
   {
-    iconClassName: "devicon-mongodb-plain",
+    iconClassName: "devicon-mongodb-plain colored",
     name: "MongoDB"
   },
   {
-    iconClassName: "devicon-git-plain",
+    iconClassName: "devicon-git-plain colored",
     name: "Git"
   },
   {
-    iconClassName: "devicon-html5-plain",
+    iconClassName: "devicon-html5-plain colored",
     name: "HTML"
   },
   {
-    iconClassName: "devicon-css3-plain",
+    iconClassName: "devicon-css3-plain colored",
     name: "CSS"
   },
   {
-    iconClassName: "devicon-sass-original",
+    iconClassName: "devicon-sass-original colored",
     name: "SASS"
   }
 ];
@@ -76,7 +77,8 @@ export default () => (
     <p className="toolSection">
       {tools.map(tool => (
         <div className="toolTag">
-          <i class={tool.iconClassName}></i>{tool.name}
+          <i className={`${tool.iconClassName} toolIcon`}></i>
+          {tool.name}
         </div>
       ))}
     </p>
