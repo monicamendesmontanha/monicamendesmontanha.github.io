@@ -61,6 +61,7 @@
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(7, auto);
     font-size: 25px;
+    padding-left: 5px;
   }
   .toolSection {
     grid-template-columns: repeat(3, auto);
@@ -77,9 +78,10 @@
 
 @include mediaMd {
   .interests {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(5, auto);
     font-size: 25px;
+    padding-left: 5px;
   }
   .toolSection {
     grid-template-columns: repeat(4, auto);
@@ -91,7 +93,7 @@
 @include mediaLg {
   .interests {
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
     font-size: 25px;
   }
   .toolSection {
