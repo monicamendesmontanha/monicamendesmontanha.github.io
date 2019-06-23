@@ -133,6 +133,7 @@ export default () => (
         </div>
         <div className="techUsed">
             <div className="tag"><i class="devicon-javascript-plain colored"></i></div>
+            <div className="tag"><i class="devicon-jquery-plain-wordmark colored"></i></div>
             <div className="tag"><i class="devicon-html5-plain-wordmark colored"></i></div>
             <div className="tag"><i class="devicon-css3-plain-wordmark colored"></i></div>
         </div>
