@@ -21,12 +21,12 @@ const tools = [
     name: "React"
   },
   {
-    iconClassName: "devicon-rails-plain colored",
-    name: "Ruby on Rails"
-  },
-  {
     iconClassName: "devicon-ruby-plain colored",
     name: "Ruby"
+  },
+  {
+    iconClassName: "devicon-rails-plain colored",
+    name: "Rails"
   },
   {
     iconClassName: "devicon-nodejs-plain colored",
