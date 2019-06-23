@@ -81,14 +81,14 @@ export default () => (
         <Link to="/about/">
           <FontAwesomeIcon icon={faFingerprint} aria-hidden="true" title="Go to about me page"/>
         </Link>
+        <Link to="/techCommunity/">
+          <FontAwesomeIcon icon={faHandsHelping} aria-hidden="true" title="Go to tech community page"/>
+        </Link>
         <Link to="/projects/">
           <FontAwesomeIcon icon={faLaptopCode} aria-hidden="true" title="Go to projects page"/>
         </Link>
         <Link to="/skills/">
           <FontAwesomeIcon icon={faTools} aria-hidden="true" title="Go to skills page"/>
-        </Link>
-        <Link to="/techCommunity/">
-          <FontAwesomeIcon icon={faHandsHelping} aria-hidden="true" title="Go to tech community page"/>
         </Link>
     </div>
 
