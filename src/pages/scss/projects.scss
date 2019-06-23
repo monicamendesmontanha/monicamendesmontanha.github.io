@@ -118,28 +118,32 @@
 }
 
 .techUsed {
+  // border: 2px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   box-sizing: border-box;
   padding-top: 10px;
-  padding-left: 20px;
+  // padding-left: 20px;
   padding-bottom: 10px;
+  border-top: 2px solid $white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+
 }
 
 .tag {
   // border: 2px solid green;
-  font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  font-size: 55px;
   text-align: center;
-  color: $white;
-  background-color: $purple;
+  // color: $black;
+  background-color: $white;
+  // margin-top: 5px;
+  // margin-bottom: 5px;
   // box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
-  padding: 4px;
-  border-radius: 4px;
-  border: 2px solid $black;
+  // box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  // padding: 4px;
+  // border-radius: 4px;
+  // border: 2px solid $black;
 }
 
 //mobile
@@ -174,13 +178,16 @@
     padding-left: 10px;
   }
   .tag {
-    font-size: 12px;
+    font-size: 40px;
   }
 }
 
 @include mediaMd {
   .container {
     grid-template-columns: repeat(1, auto);
+  }
+  .tag {
+    font-size: 45px;
   }
 }
 

@@ -10,6 +10,8 @@ import { library } from "@fortawesome/fontawesome-svg-core"
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons"
 import { faDesktop, faLaptop } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "devicon/devicon.css"
+import "devicon/devicon-colors.css"
 library.add( faGithubAlt, faDesktop, faLaptop )
 
 export default () => (
@@ -56,10 +58,10 @@ export default () => (
           </a>
         </div>
         <div className="techUsed">
-            <div className="tag">React</div>
-            <div className="tag">Node.js</div>
-            <div className="tag">Express</div>
-            <div className="tag">SASS</div>
+            <div className="tag"><i class="devicon-react-original-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-nodejs-plain-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-express-original-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-sass-original colored"></i></div>
           </div>
       </div>
 
@@ -98,9 +100,10 @@ export default () => (
         </a>
         </div>
         <div className="techUsed">
-            <div className="tag">Ruby on Rails</div>
-            <div className="tag">Postgress</div>
-            <div className="tag">CSS</div>
+            <div className="tag"><i class="devicon-ruby-plain-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-rails-plain-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-postgresql-plain-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-css3-plain-wordmark colored"></i></div>
           </div>
       </div>
 
@@ -129,9 +132,9 @@ export default () => (
         </a>
         </div>
         <div className="techUsed">
-            <div className="tag">Javascript</div>
-            <div className="tag">HTML</div>
-            <div className="tag">CSS</div>
+            <div className="tag"><i class="devicon-javascript-plain colored"></i></div>
+            <div className="tag"><i class="devicon-html5-plain-wordmark colored"></i></div>
+            <div className="tag"><i class="devicon-css3-plain-wordmark colored"></i></div>
         </div>
       </div>
 
