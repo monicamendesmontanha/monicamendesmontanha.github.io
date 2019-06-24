@@ -40,9 +40,10 @@ export default () => (
 
         <p>
           Working as a physiotherapist for 7 years, I focused on helping the
-          development of children with impairments. I have worked in different
-          scenarios like Intensive Care Unit (ICU) at hospitals, hydrotherapy at
-          the pool and at clinics at the gymnasium.
+          development of children with impairments. During this time, I
+          undertook a variety of experiences including working at Intensive Care
+          Units (ICUs) at hospitals, hydrotherapy at swimming pools and at
+          clinics at the gymnasium.
         </p>
 
         <p>
@@ -84,13 +85,17 @@ export default () => (
       </div>
 
       <div>
-        <a className="downloadMyResume"
+        <a
+          className="downloadMyResume"
           href="/resume/ResumeMonicaMendesMontanha.pdf"
           title="Go to Monica Mendes Montanha's resume"
           rel="noopener noreferrer"
           target="_blank"
         >
-        <FontAwesomeIcon className="downloadMyResumeIcon" icon={faFileDownload}/>
+          <FontAwesomeIcon
+            className="downloadMyResumeIcon"
+            icon={faFileDownload}
+          />
           Download My Resume
         </a>
       </div>
@@ -103,7 +108,10 @@ export default () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faGithubAlt} className="contactMeSocialIcon" />
+            <FontAwesomeIcon
+              icon={faGithubAlt}
+              className="contactMeSocialIcon"
+            />
           </a>
         </div>
 
@@ -114,7 +122,10 @@ export default () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} className="contactMeSocialIcon" />
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className="contactMeSocialIcon"
+            />
           </a>
         </div>
 
@@ -128,8 +139,6 @@ export default () => (
           </a>
         </div>
       </div>
-
-
     </div>
 
     <Footer />
