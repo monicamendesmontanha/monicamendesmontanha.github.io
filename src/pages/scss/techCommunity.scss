@@ -4,7 +4,7 @@
 .techCommunitySentence {
   // border: 2px solid red;
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
   padding: 4px;
   text-align: center;
   font-size: 25px;
@@ -70,6 +70,11 @@
 
 //mobile
 @include mediaSm {
+  .techCommunitySentence {
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 80%;
+  }
   .techCommunity {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(16, auto);
@@ -91,6 +96,11 @@
 }
 
 @include mediaMd {
+  .techCommunitySentence {
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 65%;
+  }
   .techCommunity {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(10, auto);
@@ -112,6 +122,10 @@
 }
 
 @include mediaLg {
+  .techCommunitySentence {
+    margin-bottom: 15px;
+    width: 65%;
+  }
   .techCommunity {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(10, auto);
