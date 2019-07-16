@@ -200,7 +200,7 @@ export default () => (
       </div>
 
       <div className="techCommunityItem">
-      <span className="eventDate">13 MAY 2019</span>
+      <span className="eventDate">13 JUL 2019</span>
         <img
           className="techCommunityPicture"
           src={SheHacks13July2019}
