@@ -18,6 +18,7 @@ import CodingDojo08Nov2018 from "./img/CodingDojo08Nov2018.jpg"
 import SoftwareCrafters30Nov2018 from "./img/SoftwareCrafters30Nov2018.jpg"
 import GA10Apr2019 from "./img/GA10Apr2019.jpg"
 import Musesjs11May2019 from "./img/Musesjs11May2019.jpg"
+import SheHacks13July2019 from "./img/SheHacks13July2019.jpeg"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faMeetup } from "@fortawesome/free-brands-svg-icons"
@@ -196,6 +197,16 @@ export default () => (
           alt="Muses JS Meetup"
         />
         <p className="eventName"><FontAwesomeIcon icon={faMeetup} className="eventIcon"/>Muses JS</p>
+      </div>
+
+      <div className="techCommunityItem">
+      <span className="eventDate">13 MAY 2019</span>
+        <img
+          className="techCommunityPicture"
+          src={SheHacks13July2019}
+          alt="SheHacks"
+        />
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>#SheHacks Sydney</p>
       </div>
 
     </div>
