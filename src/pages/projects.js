@@ -21,6 +21,7 @@ export default () => (
     <Menu />
     <h3>PROJECTS</h3>
     <div className="container">
+
       <div className="item">
         <div>
           <div className="projectName">EAT AWARE</div>
