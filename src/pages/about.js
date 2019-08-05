@@ -27,7 +27,7 @@ export default () => (
 
       <div className="textAboutMe">
         <p>
-          I'm a junior software engineer. I'm looking for an opportunity in
+          I'm a junior software engineer and I'm looking for an opportunity in
           Sydney to build my career as a front-end developer.
         </p>
 
