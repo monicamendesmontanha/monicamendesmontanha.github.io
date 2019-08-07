@@ -30,7 +30,7 @@ export default () => (
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://mmm-my-news.herokuapp.com/"
+                href="https://eat-aware.herokuapp.com/"
               >
                 <FontAwesomeIcon icon={faDesktop} className="demoCodeIcon" />
                 DEMO
@@ -50,7 +50,7 @@ export default () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://mmm-my-news.herokuapp.com/"
+            href="https://eat-aware.herokuapp.com/"
           >
             <div className="summary">
               <li>Eat well for a better planet!</li>
