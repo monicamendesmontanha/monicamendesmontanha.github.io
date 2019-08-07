@@ -19,6 +19,7 @@ import SoftwareCrafters30Nov2018 from "./img/SoftwareCrafters30Nov2018.jpg"
 import GA10Apr2019 from "./img/GA10Apr2019.jpg"
 import Musesjs11May2019 from "./img/Musesjs11May2019.jpg"
 import SheHacks13July2019 from "./img/SheHacks13July2019.jpeg"
+import ContainerCamp2526July2019 from "./img/ContainerCamp2526July2019.jpeg"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faMeetup } from "@fortawesome/free-brands-svg-icons"
@@ -32,6 +33,16 @@ export default () => (
     <h3>TECH COMMUNITY</h3>
     <p className="techCommunitySentence">Here are a few of the events, meetups and programs I've been involved in over the past 2 years in the Sydney tech community.</p>
     <div className="techCommunity">
+
+    <div className="techCommunityItem">
+      <span className="eventDate">25 & 26 JUL 2019</span>
+        <img
+          className="techCommunityPicture"
+          src={ContainerCamp2526July2019}
+          alt="Container Camp"
+        />
+        <p className="eventName"><FontAwesomeIcon icon={faUsersCog} className="eventIcon"/>Container Camp Sydney</p>
+      </div>
 
 
       <div className="techCommunityItem">
