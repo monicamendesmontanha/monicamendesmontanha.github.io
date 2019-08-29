@@ -1,6 +1,9 @@
 import React from "react"
 import Menu from "./components/Menu"
 import "./scss/projects.scss"
+
+import CountryInfoIphone from "./img/CountryInfoIphone.png"
+import CountryInfoIpad from "./img/CountryInfoIpad.png"
 import EatAwareIphone01 from "./img/EatAwareMobile01.png"
 import EatAwareIphone02 from "./img/EatAwareMobile02.png"
 import MyNewsIphone from "./img/MyNewsIphone.png"
@@ -21,6 +24,89 @@ export default () => (
     <Menu />
     <h3>PROJECTS</h3>
     <div className="container">
+      <div className="item">
+        <div>
+          <div className="projectName">COUNTRY INFO</div>
+          <div className="sectionDemoCode">
+            <div className="demoCodeButton">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://mmm-country-info.herokuapp.com/"
+              >
+                <FontAwesomeIcon icon={faDesktop} className="demoCodeIcon" />
+                DEMO
+              </a>
+            </div>
+            <div className="demoCodeButton">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/monicamendesmontanha/country-info"
+              >
+                <FontAwesomeIcon icon={faGithubAlt} className="demoCodeIcon" />
+                CODE
+              </a>
+            </div>
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://mmm-country-info.herokuapp.com/"
+          >
+            <div className="summary">
+              <li>
+                Search countries with typeahead from{" "}
+                <a className="highlight" href="https://restcountries.eu/">
+                  Rest Countries API
+                </a>
+                .
+              </li>
+              <li>Show country's history when selecting a country.</li>
+              <li>Most recent searches are shown first.</li>
+              <li>
+                Uses <span className="highlight">localstorage</span> to save the
+                search history.
+              </li>
+            </div>
+          </a>
+        </div>
+        <div className="display">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://mmm-country-info.herokuapp.com/"
+          >
+            <img
+              className="iphone"
+              src={CountryInfoIphone}
+              alt="Country Info Iphone"
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://mmm-country-info.herokuapp.com/"
+          >
+            <img
+              className="ipad"
+              src={CountryInfoIpad}
+              alt="Country Info Ipad"
+            />
+          </a>
+        </div>
+        <div className="techUsed">
+          <div className="tag">
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
+          <div className="tag">
+            <i class="devicon-react-original-wordmark colored"></i>
+          </div>
+          <div className="tag">
+            <i class="devicon-css3-plain-wordmark colored"></i>
+          </div>
+        </div>
+      </div>
 
       <div className="item">
         <div>
@@ -64,11 +150,11 @@ export default () => (
                 petrol car;
               </li>
               <li>
-                The amount litres of water that are required to produce it.
+                The amount litres of water that are required to produce it;
               </li>
               <li>
                 The numbers of showers lasting eight minutes regarding the
-                quantity of water.
+                quantity of water;
               </li>
             </div>
           </a>
@@ -142,14 +228,15 @@ export default () => (
           >
             <div className="summary">
               <li>
-                Listen and read the news around the world in an accessible way
+                Listen and read the news around the world in an{" "}
+                <span className="highlight">accessible</span> way.
               </li>
               <li>
                 Play, Pause, Resume and Stop any time the speaking content.
               </li>
               <li>
-                Read without distractions, the content is showed without
-                advertising.
+                Read without distractions, the content is showed{" "}
+                <span className="highlight">without advertising</span>.
               </li>
               <li>Click and go to the original article page.</li>
             </div>
@@ -219,7 +306,10 @@ export default () => (
           >
             <div className="summary">
               <li>Keep track of your expenses while travelling.</li>
-              <li>Automatically conversion the rates.</li>
+              <li>
+                <span className="highlight">Automatically conversion</span> the
+                rates.
+              </li>
               <li>Enjoy travelling and saving money at the same time.</li>
               <li>
                 Store and visualise all your expenses organized by category.
@@ -296,8 +386,9 @@ export default () => (
             <div className="summary">
               <li>Play the famous game of X's and O's.</li>
               <li>
-                Inspired on Super Nintendo Classic, the NES.css Framework will
-                bring to you a great nostalgia.
+                Inspired on Super Nintendo Classic, the{" "}
+                <span className="highlight">NES.css Framework</span> will bring
+                to you a great nostalgia.
               </li>
               <li>Enjoy and invite a 2º player to the game!</li>
             </div>
