@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{156:function(e,a,n){"use strict";n.r(a);var t=n(0),o=n.n(t);n(170);a.default=function(){return o.a.createElement("div",{className:"footer"},o.a.createElement("div",{className:"emailFooter"},o.a.createElement("a",{target:"_blank",rel:"noopener noreferrer",href:"mailto:monicamendesmontanha@gmail.com"},o.a.createElement("span",{type:"submit"},"monicamendesmontanha@gmail.com"))))}}}]);
+//# sourceMappingURL=component---src-pages-components-footer-js-31d8fc8bbe2468e266ef.js.map
