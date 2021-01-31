@@ -34,6 +34,7 @@ import ReactConfAU29Fev2010 from "./img/ReactConfAU29Fev2010.jpeg"
 import MusesJS07Mar2020 from "./img/MusesJS07Mar2020.jpg"
 import MusesjsCrew07Mar2020 from "./img/MusesjsCrew07Mar2020.jpg"
 import EachForEqual10Mar2020 from "./img/EachForEqual10Mar2020.jpg"
+import InnoDaysDomain26Jun2020 from "./img/InnoDaysDomain26Jun2020.png"
 import ServerlessDays04Sep2020 from "./img/ServerlessDays04Sep2020.png"
 import AlumniPanelSessionGA27Jan2021 from "./img/AlumniPanelSessionGA27Jan2021.png"
 
@@ -81,6 +82,19 @@ export default () => (
       <p className="eventName">
         <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
           Serverless Days ANZ 2020
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">26 JUN 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={InnoDaysDomain26Jun2020}
+        alt="InnoDays Domain Jun 2020"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        InnoDays - Judge's choice award
       </p>
     </div>
 
