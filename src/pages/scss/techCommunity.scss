@@ -19,7 +19,7 @@
   width: 95%;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(9, auto);
+  grid-template-rows: repeat(13, auto);
   grid-gap: 2.5rem;
   padding-bottom: 48px;
 }
@@ -78,7 +78,7 @@
   }
   .techCommunity {
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(18, auto);
+    grid-template-rows: repeat(21, auto);
   }
   .techCommunityPicture {
     height: 150px;
@@ -104,7 +104,7 @@
   }
   .techCommunity {
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(12, auto);
+    grid-template-rows: repeat(19, auto);
   }
   .techCommunityPicture {
     height: 170px;
@@ -129,7 +129,7 @@
   }
   .techCommunity {
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(12, auto);
+    grid-template-rows: repeat(19, auto);
   }
   .techCommunityPicture {
     height: 190px;
@@ -150,7 +150,7 @@
 @include mediaXl {
   .techCommunity {
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(12, auto);
+    grid-template-rows: repeat(19, auto);
   }
   .eventIcon {
     margin-right: 8px;
