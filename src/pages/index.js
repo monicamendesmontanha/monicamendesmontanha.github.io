@@ -13,9 +13,6 @@ export default () => (
       </p>
       <h1>Monica Mendes Montanha</h1>
       <h2>
-        <span class="glitch" data-text="Junior">
-          Junior{" "}
-        </span>
         <span class="glitch" data-text="Software">
           Software
         </span>{" "}
