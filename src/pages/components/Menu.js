@@ -15,8 +15,6 @@ import {
   faTools,
   faHandsHelping,
   faShareAlt,
-  faEnvelope,
-  faFileDownload,
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -27,8 +25,6 @@ library.add(
   faTools,
   faHandsHelping,
   faShareAlt,
-  faEnvelope,
-  faFileDownload,
   fab,
   faLinkedinIn,
   faGithubAlt,
@@ -100,7 +96,7 @@ export default () => (
         rel="noopener noreferrer"
         target="_blank"
       >
-        CV <FontAwesomeIcon icon={faFileDownload} aria-hidden="true" title="Go to Monica Mendes Montanha's resume"/>
+        CV
       </a>
     </div>
   </div>
