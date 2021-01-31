@@ -62,7 +62,7 @@ export default () => (
       <div>
         <a
           className="downloadMyResume"
-          href="/resume/Resume-MonicaMendesMontanha.pdf"
+          href="/resume/ResumeMonicaMendesMontanha.pdf"
           title="Go to Monica Mendes Montanha's resume"
           rel="noopener noreferrer"
           target="_blank"
