@@ -44,9 +44,10 @@ import {
   faCode,
   faUsersCog,
   faChalkboardTeacher,
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-library.add(faMeetup, faCode, faUsersCog, faChalkboardTeacher)
+library.add(faMeetup, faCode, faUsersCog, faChalkboardTeacher, faTrophy)
 
 export default () => (
   <>
@@ -86,15 +87,15 @@ export default () => (
     </div>
 
     <div className="techCommunityItem">
-      <span className="eventDate">26 JUN 2020</span>
+      <span className="eventDate">22 - 26 JUN 2020</span>
       <img
         className="techCommunityPicture"
         src={InnoDaysDomain26Jun2020}
         alt="InnoDays Domain Jun 2020"
       />
       <p className="eventName">
-        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
-        InnoDays - Judge's choice award
+        <FontAwesomeIcon icon={faTrophy} className="eventIcon" />
+        Judge's choice award - Domain
       </p>
     </div>
 
@@ -211,7 +212,7 @@ export default () => (
         />
         <p className="eventName">
           <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
-          DDD Sydney 2019
+          DDD Sydney Crew
         </p>
       </div>
 
@@ -224,7 +225,7 @@ export default () => (
         />
         <p className="eventName">
           <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
-          Google Cloud Summit Sydney
+          Google Cloud Summit
         </p>
       </div>
 
@@ -236,8 +237,8 @@ export default () => (
           alt="MYOB HackDays"
         />
         <p className="eventName">
-          <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
-          MYOB HackDays
+          <FontAwesomeIcon icon={faTrophy} className="eventIcon" />
+          People's choice award - MYOB
         </p>
       </div>
 
@@ -250,7 +251,7 @@ export default () => (
         />
         <p className="eventName">
           <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
-          Serverless Days Sydney Team
+          Serverless Days Team
         </p>
       </div>
 
@@ -281,7 +282,7 @@ export default () => (
       </div>
 
       <div className="techCommunityItem">
-        <span className="eventDate">13 JUL 2019</span>
+        <span className="eventDate">12 & 13 JUL 2019</span>
         <img
           className="techCommunityPicture"
           src={SheHacks13July2019}
