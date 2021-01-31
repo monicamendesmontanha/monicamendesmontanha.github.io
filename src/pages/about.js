@@ -27,7 +27,7 @@ export default () => (
 
       <div className="textAboutMe">
         <p>
-          I love the ever-changing nature of this industry and that{" "}
+          I love the ever-changing nature of the software development industry and{" "}
           <span>
             I am thrilled to have chosen a career path where I will always be
             learning.
