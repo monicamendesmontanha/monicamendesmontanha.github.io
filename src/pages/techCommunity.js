@@ -25,6 +25,10 @@ import ReactMeetup01Jul2019 from "./img/ReactMeetup01Jul2019.jpg"
 import ServerlessDaysSydney27Aug2019 from "./img/ServerlessDaysSydney27Aug2019.png"
 import MYOBHackDays5and6Sep2019 from "./img/MYOBHackDays5and6Sep2019.jpeg"
 import GoogleCloudSummit18Sep2019 from "./img/GoogleCloudSummit18Sep2019.jpg"
+import DDDSydney22Sep2019 from "./img/DDDSydney22Sep2019.jpg"
+import LadiesInTech09Oct2019 from "./img/LadiesInTech09Oct2019.jpg"
+import Musesjs16Nov2019 from "./img/Musesjs16Nov2019.jpeg"
+import YOW06Dec2019 from "./img/YOW06Dec2019.jpg"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faMeetup } from "@fortawesome/free-brands-svg-icons"
@@ -45,6 +49,58 @@ export default () => (
       over the past 2 years in the Sydney tech community.
     </p>
     <div className="techCommunity">
+
+    <div className="techCommunityItem">
+      <span className="eventDate">06 DEC 2019</span>
+      <img
+        className="techCommunityPicture"
+        src={YOW06Dec2019}
+        alt="YOW! Conf Australia 2019"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        YOW! Conf AUS 2019
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">16 NOV 2019</span>
+      <img
+        className="techCommunityPicture"
+        src={Musesjs16Nov2019}
+        alt="Muses JS Nov 2019"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        Mentor at Muses JS
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">05 OCT 2019</span>
+      <img
+        className="techCommunityPicture"
+        src={LadiesInTech09Oct2019}
+        alt="Ladies In Tech 2019"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        Ladies In Tech 2019
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+        <span className="eventDate">22 SEP 2019</span>
+        <img
+          className="techCommunityPicture"
+          src={DDDSydney22Sep2019}
+          alt="DDD Sydney 2019"
+        />
+        <p className="eventName">
+          <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+          DDD Sydney 2019
+        </p>
+      </div>
 
       <div className="techCommunityItem">
         <span className="eventDate">18 SEP 2019</span>
@@ -90,7 +146,7 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={Musesjs10Aug2019}
-          alt="Muses JS"
+          alt="Muses JS Ago 2019"
         />
         <p className="eventName">
           <FontAwesomeIcon icon={faMeetup} className="eventIcon" />
@@ -142,11 +198,11 @@ export default () => (
         <img
           className="techCommunityPicture"
           src={Musesjs11May2019}
-          alt="Muses JS Meetup"
+          alt="Muses JS May 2019"
         />
         <p className="eventName">
           <FontAwesomeIcon icon={faMeetup} className="eventIcon" />
-          Muses JS
+          Mentor at Muses JS
         </p>
       </div>
 
