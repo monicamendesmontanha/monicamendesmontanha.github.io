@@ -54,7 +54,7 @@ export default () => (
     <h3>TECH COMMUNITY</h3>
     <p className="techCommunitySentence">
       Here are a few of the events, meetups and programs I've been involved in
-      over the past 2 years in the Sydney tech community.
+      over the past years in the Sydney tech community.
     </p>
     <div className="techCommunity">
 
