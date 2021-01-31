@@ -29,6 +29,13 @@ import DDDSydney22Sep2019 from "./img/DDDSydney22Sep2019.jpg"
 import LadiesInTech09Oct2019 from "./img/LadiesInTech09Oct2019.jpg"
 import Musesjs16Nov2019 from "./img/Musesjs16Nov2019.jpeg"
 import YOW06Dec2019 from "./img/YOW06Dec2019.jpg"
+import OfficeTourGAatDomain19Fev2020 from './img/OfficeTourGAatDomain19Fev2020.jpg'
+import ReactConfAU29Fev2010 from "./img/ReactConfAU29Fev2010.jpeg"
+import MusesJS07Mar2020 from "./img/MusesJS07Mar2020.jpg"
+import MusesjsCrew07Mar2020 from "./img/MusesjsCrew07Mar2020.jpg"
+import EachForEqual10Mar2020 from "./img/EachForEqual10Mar2020.jpg"
+import ServerlessDays04Sep2020 from "./img/ServerlessDays04Sep2020.png"
+import AlumniPanelSessionGA27Jan2021 from "./img/AlumniPanelSessionGA27Jan2021.png"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faMeetup } from "@fortawesome/free-brands-svg-icons"
@@ -49,6 +56,98 @@ export default () => (
       over the past 2 years in the Sydney tech community.
     </p>
     <div className="techCommunity">
+
+
+    <div className="techCommunityItem">
+      <span className="eventDate">27 JAN 2021</span>
+      <img
+        className="techCommunityPicture"
+        src={AlumniPanelSessionGA27Jan2021}
+        alt="GA Alumni Panel Session 2021"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        Alumni Panel Session - GA
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">04 SEP 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={ServerlessDays04Sep2020}
+        alt="Serverless Days ANZ"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+          Serverless Days ANZ 2020
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">20 MAR 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={EachForEqual10Mar2020}
+        alt="Each For Equal Marc 2020"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        Each For Equal - Domain
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">07 MAR 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={MusesjsCrew07Mar2020}
+        alt="Muses JS Crew Mar 2020"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faMeetup} className="eventIcon" />
+        Muses JS Crew
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">07 MAR 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={MusesJS07Mar2020}
+        alt="Muses JS Mar 2020"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faMeetup} className="eventIcon" />
+        Mentor at Muses JS
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">29 FEV 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={ReactConfAU29Fev2010}
+        alt="React Conf AU 2020"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        React Conf AU 2020
+      </p>
+    </div>
+
+    <div className="techCommunityItem">
+      <span className="eventDate">19 FEV 2020</span>
+      <img
+        className="techCommunityPicture"
+        src={OfficeTourGAatDomain19Fev2020}
+        alt="Office Tour GA at Domain 2020"
+      />
+      <p className="eventName">
+        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        Office Tour GA at Domain
+      </p>
+    </div>
 
     <div className="techCommunityItem">
       <span className="eventDate">06 DEC 2019</span>
@@ -71,7 +170,7 @@ export default () => (
         alt="Muses JS Nov 2019"
       />
       <p className="eventName">
-        <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
+        <FontAwesomeIcon icon={faMeetup} className="eventIcon" />
         Mentor at Muses JS
       </p>
     </div>
@@ -85,7 +184,7 @@ export default () => (
       />
       <p className="eventName">
         <FontAwesomeIcon icon={faUsersCog} className="eventIcon" />
-        Ladies In Tech 2019
+        Ladies In Tech - Domain
       </p>
     </div>
 
