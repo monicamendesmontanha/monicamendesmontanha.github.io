@@ -17,6 +17,10 @@ const tools = [
     name: "JavaScript"
   },
   {
+    iconClassName: "devicon-typescript-plain colored",
+    name: "TypeScript"
+  },
+  {
     iconClassName: "devicon-react-original colored",
     name: "React"
   },
@@ -67,6 +71,10 @@ const tools = [
   {
     iconClassName: "devicon-sass-original colored",
     name: "SASS"
+  },
+  {
+    iconClassName: "devicon-mocha-plain colored",
+    name: "Mocha"
   }
 ];
 
