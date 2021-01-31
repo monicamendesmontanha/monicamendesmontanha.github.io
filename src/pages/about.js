@@ -27,31 +27,16 @@ export default () => (
 
       <div className="textAboutMe">
         <p>
-          I'm a junior software engineer and I'm looking for an opportunity in
-          Sydney to build my career as a front-end developer.
+          I love the ever-changing nature of this industry and that{" "}
+          <span>
+            I am thrilled to have chosen a career path where I will always be
+            learning.
+          </span>{" "}
+          I also love the diversity of the tech community - I feel like I have
+          found my people!
         </p>
 
-        <p>
-          When I set my mind to something I work very hard to achieve it:
-          whether it be building a career as a physiotherapist in Brazil, coming
-          to Sydney to learn English or my current focus of reskilling as a
-          software engineer.
-        </p>
-
-        <p>
-          Working as a physiotherapist for 7 years, I focused on helping the
-          development of children with impairments. During this time, I
-          undertook a variety of experiences including working at Intensive Care
-          Units (ICUs) at hospitals, hydrotherapy at swimming pools and at
-          clinics at the gymnasium.
-        </p>
-
-        <p>
-          Realising that I had achieved my goals as a physiotherapist, I decided
-          for a career-change trying something that I already admired and hadn't
-          had the chance to work as before.
-        </p>
-
+        <p>I'm a former physiotherapist that decided to change career to became a software engineer.</p>
         <p>
           I have embedded myself in the Sydney tech industry by attending{" "}
           <Link to="/techCommunity/">meetups</Link>, enrolling in the{" "}
@@ -70,17 +55,7 @@ export default () => (
           >
             Software Engineering Immersive
           </a>{" "}
-          course at General Assembly.
-        </p>
-
-        <p>
-          I love the ever-changing nature of this industry and that{" "}
-          <span>
-            I am thrilled to have chosen a career path where I will always be
-            learning.
-          </span>{" "}
-          I also love the diversity of the tech community - I feel like I have
-          found my people!
+          course at General Assembly, starting my first position as a junior software engineer right after.
         </p>
       </div>
 
